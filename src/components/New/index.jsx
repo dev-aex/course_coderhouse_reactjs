@@ -1,4 +1,4 @@
-const Novedades = () => {
+const New = () => {
   return (
     <section>
       <h2 className="text-lg font-bold text-primario-300">Novedades</h2>
@@ -7,4 +7,4 @@ const Novedades = () => {
   );
 };
 
-export default Novedades;
+export default New;
