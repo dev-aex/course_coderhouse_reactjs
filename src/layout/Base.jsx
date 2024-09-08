@@ -7,7 +7,6 @@ const Base = ({ children }) => {
     <>
       <header className="mt-[8.9rem] mx-[13.8rem] flex flex-col gap-4xl">
         <TopBar />
-        <NavBar />
       </header>
       <main className="mt-3xl mx-[13.8rem] flex flex-col gap-4xl">{children}</main>
       <footer>
