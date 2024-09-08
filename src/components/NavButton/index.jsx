@@ -1,6 +1,6 @@
 const NavButton = ({ text }) => {
   return (
-    <button className="px-sm py-2xs text-base font-semibold text-primario-400 rounded-md hover:bg-primario-300 hover:text-blanco active:bg-primario-50">
+    <button className="px-xs text-base font-bold text-ferre_blue300 hover:text-ferre_blue400 hover:border-b-2 active:text-ferre_yellow">
       {text}
     </button>
   );

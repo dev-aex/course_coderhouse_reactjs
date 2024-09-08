@@ -28,7 +28,7 @@ const SearchBar = () => (
       </svg>
     </span>
     <input
-      className="w-[416px] h-[36px] text-base px-xl placeholder:text-primario-50 bg-primario-20 rounded-lg focus:ring-primario-400 focus:ring-2"
+      className="w-[416px] h-[44px] text-base px-xl placeholder:text-ferre_blue50 bg-ferre-white border border-ferre_blue200 border-1 rounded-lg focus:border-2"
       placeholder="Busca en todo FerreYá"
       type="text"
       name="search"

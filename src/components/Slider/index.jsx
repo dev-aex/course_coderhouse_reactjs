@@ -12,50 +12,54 @@ const Slider = ({ data }) => {
   };
 
   return (
-    <section>
-      <button onClick={previousSlide}>
-        <svg
+    <section className="w-full h-fit relative">
+      <button className="absolute top-1/2 left-xs" onClick={previousSlide}>
+        <div className="w-xl h-xl flex items-center justify-center rounded-full bg-ferre_white/30 hover:bg-white/60 active:bg-ferre_blue200/30">
+        <svg className="-rotate-90"
           xmlns="http://www.w3.org/2000/svg"
-          width="10"
-          height="14"
-          viewBox="0 0 10 14"
+          width="20"
+          height="16"
+          viewBox="0 0 20 16"
           fill="none"
         >
           <path
-            d="M10 13.416V10.916L2.5 7.16602V6.91602L10 3.16602V0.666016L-1.3113e-07 5.66602V8.41602L10 13.416Z"
-            fill="#081850"
+            d="M19.5384 15.8793L15.7884 15.8793L10.1634 4.62927L9.78838 4.62927L4.16338 15.8793L0.413376 15.8793L7.91338 0.879272L12.0384 0.879272L19.5384 15.8793Z"
+            fill="#113096"
           />
         </svg>
+        </div>
       </button>
-      <div className="w-full h-[320px] rounded-md flex">
+      <div className="w-full h-auto rounded-md flex ">
         {data.map((item, index) => {
           return (
-            <img
+            <img 
               key={index}
               src={item.url}
               alt={item.alt}
               className={
-                slide === index ? "w-auto h-auto inline-block" : "hidden"
+                slide === index ? "w-auto h-auto inline-block rounded-3xl" : "hidden"
               }
             />
           );
         })}
       </div>
-      <button onClick={nextSlide}>
-        <svg
+      <button className="absolute top-1/2 right-xs" onClick={nextSlide}>
+      <div className="w-xl h-xl flex items-center justify-center rounded-full bg-ferre_white/30 hover:bg-white/60 active:bg-ferre_blue200/30">
+        <svg className="rotate-90"
           xmlns="http://www.w3.org/2000/svg"
-          width="11"
-          height="14"
-          viewBox="0 0 11 14"
+          width="20"
+          height="16"
+          viewBox="0 0 20 16"
           fill="none"
         >
           <path
-            d="M0.163086 13.416V10.916L7.66309 7.16602V6.91602L0.163086 3.16602V0.666016L10.1631 5.66602V8.41602L0.163086 13.416Z"
-            fill="#081850"
+            d="M19.5384 15.8793L15.7884 15.8793L10.1634 4.62927L9.78838 4.62927L4.16338 15.8793L0.413376 15.8793L7.91338 0.879272L12.0384 0.879272L19.5384 15.8793Z"
+            fill="#113096"
           />
         </svg>
+        </div>
       </button>
-      <span>
+      <span className="flex gap-2xs absolute bottom-xs left-1/2">
         {data.map((_, index) => {
           return (
             <button
@@ -65,8 +69,8 @@ const Slider = ({ data }) => {
               }}
               className={
                 slide === index
-                  ? "w-xs h-xs bg-primario-400 rounded-3xl"
-                  : "w-xs h-xs bg-primario-50 rounded-3xl"
+                  ? "w-xs h-xs bg-ferre_blue500 rounded-3xl"
+                  : "w-xs h-xs bg-white rounded-3xl"
               }
             ></button>
           );

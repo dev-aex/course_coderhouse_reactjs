@@ -2,7 +2,7 @@ import NavButton from "../components/NavButton";
 
 const ItemListContainer = ({ links }) => {
   return (
-    <ul className="flex gap-md justify-between">
+    <ul className="w-full h-lg flex gap-md justify-between">
       {links.map((link) => (
         <li key={link}>
           <NavButton text={link} />

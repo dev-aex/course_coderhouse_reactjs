@@ -5,11 +5,11 @@ import FooterBar from "../components/FooterBar";
 const Base = ({ children }) => {
   return (
     <>
-      <header className="mt-[6.9rem] mx-[13.8rem] flex flex-col gap-xl">
+      <header className="mt-[8.9rem] mx-[13.8rem] flex flex-col gap-4xl">
         <TopBar />
         <NavBar />
       </header>
-      <main className="mt-lg mx-[13.8rem] flex flex-col gap-4xl">{children}</main>
+      <main className="mt-3xl mx-[13.8rem] flex flex-col gap-4xl">{children}</main>
       <footer>
         <FooterBar />
       </footer>
