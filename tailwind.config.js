@@ -3,7 +3,8 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     spacing: {
-      "3xs": "0.8rem",
+      "4xs": "0.8rem",
+      "3xs": "1rem",
       "2xs": "1.2rem",
       "xs": "1.6rem",
       "sm": "2.4rem",
@@ -17,10 +18,12 @@ export default {
     fontSize: {
       'xs': '1rem',
       'sm': '1.2rem',
+      'md': '1.4rem',
       'base': '1.6rem',
-      'lg': '2.4rem',
-      'xl': '3.2rem',
-      '2xl': '4rem',
+      'lg': '1.8rem',
+      'xl': '2.4rem',
+      '2xl': '3.2rem',
+      '3xl': '4rem'
     },
     colors: {
       "ferre_blue20": "#BFCBED",

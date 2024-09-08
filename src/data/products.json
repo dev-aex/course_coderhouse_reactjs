@@ -5,20 +5,20 @@
       "name": "Galónn aditivo para empañete azul",
       "description": "Galón aditivo para empañete azul",
       "regularPrice": "DOP$ 995.00",
-      "salePrice": "DROP$ 645.00",
+      "salePrice": "DOP$ 645.00",
       "onSale": true,
       "isNew": false,
-      "imgSrc": "./assets/img/products/construccion/PK27.jpg"
+      "imgSrc": "./src/assets/img/products/construccion/PK27.jpg"
     },
     {
       "id": "c2",
       "name": "Aditivo para empañete rosado de 32 oz",
       "description": "ADITIVO PARA EMPAÑETE ROSADO DE 32 OZ CANO",
       "regularPrice": "DOP$ 306.00",
-      "salePrice": "DROP$ 245.00",
+      "salePrice": "DOP$ 245.00",
       "onSale": true,
       "isNew": false,
-      "imgSrc": "./assets/img/products/construccion/Silbond-32-onz.png"
+      "imgSrc": "./src/assets/img/products/construccion/Silbond-32-onz.png"
     },
     {
       "id": "c3",
@@ -26,7 +26,7 @@
       "description": "ZINC  ACANALADO",
       "regularPrice": "DOP$ 359.99",
       "isNew": true,
-      "imgSrc": "./assets/img/products/construccion/13702.jpg"
+      "imgSrc": "./src/assets/img/products/construccion/13702.jpg"
     },
     {
       "id": "c4",
@@ -34,763 +34,859 @@
       "description": "Zinc liso. VENTA POR PLACHA DE 3 X 6 ( PIE ) Calibre 29 Calibre 34",
       "regularPrice": "DOP$ 240.00",
       "isNew": true,
-      "imgSrc": "./assets/img/products/construccion/Codigos-147-148.jpg"
+      "imgSrc": "./src/assets/img/products/construccion/Codigos-147-148.jpg"
     },
     {
       "id": "c5",
       "name": "Super glue-pega instantanea 10 oz",
       "description": "Super glue-pega instantanea 10 oz",
       "regularPrice": "DOP$ 42.00",
-      "imgSrc": "./assets/img/products/construccion/790920049875.png"
+      "imgSrc": "./src/assets/img/products/construccion/790920049875.png"
     },
     {
       "id": "c6",
       "name": "Cemento blanco 5 lbs",
       "description": "CEMENTO BLANCO PURO 5 LIBRAS",
       "regularPrice": "DOP$ 133.00",
-      "imgSrc": "./assets/img/products/construccion/2099.jpg"
+      "imgSrc": "./src/assets/img/products/construccion/2099.jpg"
     },
     {
       "id": "c7",
       "name": "Playwood 3/4 Mdf slat wall blanco",
       "description": "Playwood 3/4 Mdf slat wall blanco. Venta por plancha de 4 x 8 ( PIE )",
       "regularPrice": "DOP$ 1,855.00",
-      "imgSrc": "./assets/img/products/construccion/Codigos-222617.jpg"
+      "imgSrc": "./src/assets/img/products/construccion/Codigos-222617.jpg"
     },
     {
       "id": "c8",
       "name": "Aditivo para empañete azul de 32 onza",
       "description": "ADITIVO PARA EMPAÑETE AZUL DE 32 ONZA CANO",
       "regularPrice": "DOP$ 325.00",
-      "imgSrc": "./assets/img/products/construccion/Silbond-Ultra-32-onz.png"
+      "imgSrc": "./src/assets/img/products/construccion/Silbond-Ultra-32-onz.png"
     },
     {
       "id": "c9",
       "name": "Yeso 2lb",
       "description": "Yeso 2lb",
       "regularPrice": "DOP$ 25.00",
-      "imgSrc": "./assets/img/products/construccion/7465710056045.png"
+      "imgSrc": "./src/assets/img/products/construccion/7465710056045.png"
     },
     {
       "id": "c10",
       "name": "Clavos",
       "description": "CLAVOS CORRIENTE CRIOLLO. SE VENDE POR LIBRA",
       "regularPrice": "DOP$ 43.00",
-      "imgSrc": "./assets/img/products/construccion/3354.png"
+      "imgSrc": "./src/assets/img/products/construccion/3354.png"
     },
     {
       "id": "c11",
       "name": "Clavos especiales",
       "description": "CLAVOS ESPECIALES, CON CABEZA Y SIN CABEZA, CORVI",
       "regularPrice": "DOP$ 64.78",
-      "imgSrc": "./assets/img/products/construccion/3363.png"
+      "imgSrc": "./src/assets/img/products/construccion/3363.png"
     },
     {
       "id": "c12",
       "name": "Alambre púas 250 mts.",
       "description": "ALAMBRE PUAS C.16  250 MTS, MOTTO",
       "regularPrice": "DOP$ 3,300.00",
-      "imgSrc": "./assets/img/products/construccion/PUA.jpg"
+      "imgSrc": "./src/assets/img/products/construccion/PUA.jpg"
     },
     {
       "id": "c13",
       "name": "Grapa púa",
       "description": "GRAPA PÚA. SE VENDE POR LIBRA",
       "regularPrice": "DOP$ 65.00",
-      "imgSrc": "./assets/img/products/construccion/3372.jpg"
+      "imgSrc": "./src/assets/img/products/construccion/3372.jpg"
     },
     {
       "id": "c14",
       "name": "M3 grava de 3/4",
       "description": "M3 GRAVA DE 3/4. SE VENDE POR METRO CÚBICO (MT3)",
       "regularPrice": "DOP$ 1,575.00",
-      "imgSrc": "./assets/img/products/construccion/Grava-codigo-404.jpg"
+      "imgSrc": "./src/assets/img/products/construccion/Grava-codigo-404.jpg"
     },
     {
       "id": "c15",
       "name": "Playwood 3/4\" (4' X 8') enconfrar 1 cara franja roja americano",
       "description": "Playwood 3/4\" (4' X 8') enconfrar 1 cara franja roja americano",
       "regularPrice": "DOP$ 3,495.00",
-      "imgSrc": "./assets/img/products/construccion/playwood.png"
+      "imgSrc": "./src/assets/img/products/construccion/playwood.png"
     },
     {
       "id": "c16",
       "name": "Malla ciclónica",
       "description": "Malla ciclónica",
       "regularPrice": "DOP$ 4,432.00",
-      "imgSrc": "./assets/img/products/construccion/2.jpg"
+      "imgSrc": "./src/assets/img/products/construccion/2.jpg"
     },
     {
       "id": "c17",
       "name": "M3 arena estado natural",
       "description": "M3 ARENA ESTADO NATURAL. SE VENDE POR METRO CÚBICO (MT3)",
       "regularPrice": "DOP$ 1,395.00",
-      "imgSrc": "./assets/img/products/construccion/Arena-Itabo-codigo-400.png"
+      "imgSrc": "./src/assets/img/products/construccion/Arena-Itabo-codigo-400.png"
     },
     {
       "id": "c18",
       "name": "Estuco de 14 kg",
       "description": "Estuco de 14 kg para interior y exterior. Colores: Blanco y Gris",
       "regularPrice": "DOP$ 375.00",
-      "imgSrc": "./assets/img/products/construccion/PegacolEstucoSS.png"
+      "imgSrc": "./src/assets/img/products/construccion/PegacolEstucoSS.png"
     },
     {
       "id": "c19",
       "name": "Masilla yeso ProFrom",
       "description": "MASILLA YESO PRO-FORM  US 50LBS",
       "regularPrice": "DOP$ 1,630.00",
-      "imgSrc": "./assets/img/products/construccion/022332023397.png"
+      "imgSrc": "./src/assets/img/products/construccion/022332023397.png"
     },
     {
       "id": "c20",
       "name": "Madera bruta pino americana",
       "description": "MADERA  BRUTA PINO AMERICANA. SE VENDE POR UNIDAD",
       "regularPrice": "DOP$ 295.00",
-      "imgSrc": "./assets/img/products/construccion/505.jpg"
+      "imgSrc": "./src/assets/img/products/construccion/505.jpg"
     },
     {
       "id": "c21",
       "name": "Cartón piedra grueso",
       "description": "CARTÓN PIEDRA GRUESO. VENTA POR PLANCHA DE 4 x 8 ( PIE )",
       "regularPrice": "DOP$ 405.00",
-      "imgSrc": "./assets/img/products/construccion/Codigo-65.jpg"
+      "imgSrc": "./src/assets/img/products/construccion/Codigo-65.jpg"
     },
     {
       "id": "c22",
       "name": "Malla de piñonate",
       "description": "Malla de piñonate. Venta por plancha de 4 x 8 ( pie )",
       "regularPrice": "DOP$ 1,315.00",
-      "imgSrc": "./assets/img/products/construccion/Todas-las-Mallas-de-Piñonate.jpg"
+      "imgSrc": "./src/assets/img/products/construccion/Todas-las-Mallas-de-Piñonate.jpg"
     },
     {
       "id": "c23",
       "name": "Playwood okume chino",
       "description": "Playwood okume chino. Venta por plancha en pie de ( 4' X 8') ,( 2.5'  X 7' ) y( 2.66'  X 7' )",
       "regularPrice": "DOP$ 485.00",
-      "imgSrc": "./assets/img/products/construccion/Todos-los-playwood-Okume.jpg"
+      "imgSrc": "./src/assets/img/products/construccion/Todos-los-playwood-Okume.jpg"
     },
     {
       "id": "c24",
       "name": "Cemento gris santo domingo",
       "description": "Cemento gris santo domingo",
       "regularPrice": "DOP$ 445.00",
-      "imgSrc": "./assets/img/products/construccion/Cemento-gris-santo-domingo.png"
+      "imgSrc": "./src/assets/img/products/construccion/Cemento-gris-santo-domingo.png"
     }
   ],
   "herramientas": [
     {
+      "id": "hrra1",
       "name": "Batería ión Litio 20 V, 4 Ah",
       "description": "Batería ión Litio 20 V, 4 Ah, Truper",
       "regularPrice": "DOP$ 4,315.00",
-      "salePrice": "DROP$ 3,245.00",
+      "salePrice": "DOP$ 3,245.00",
       "onSale": true,
       "isNew": false,
-      "imgSrc": "./assets/img/products/herramientas/BAT-20A4.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/BAT-20A4.jpg"
     },
     {
+      "id": "hrra2",
       "name": "Caja plástica con compartimientos, broche metálico",
       "description": "CAJA PLÁSTICA 19\". C/COMPARTIMENTOS, NARANJA, BROCHE METÁLICO",
       "regularPrice": "DOP$ 1,046.57",
-      "salePrice": "DROP$ 875.00",
+      "salePrice": "DOP$ 875.00",
       "onSale": true,
       "isNew": false,
-      "imgSrc": "./assets/img/products/herramientas/CHA-19S+D3.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/CHA-19S+D3.jpg"
     },
     {
+      "id": "hrra3",
       "name": "Plana de albañil filadelfia",
       "description": "PLANA DE ALBAÑIL FILADELFIA PRETUL",
       "regularPrice": "DOP$ 151.54",
       "isNew": true,
-      "imgSrc": "./assets/img/products/herramientas/CT-6P.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/CT-6P.jpg"
     },
     {
+      "id": "hrra4",
       "name": "Broca avellanador para madera",
       "description": "Avellanador HSS cambio rápido, Truper",
       "regularPrice": "DOP$ 245.00",
       "isNew": true,
-      "imgSrc": "./assets/img/products/herramientas/AV-5-8.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/AV-5-8.jpg"
     },
     {
+      "id": "hrra5",
       "name": "Cortador anular",
       "description": "Cortador anular",
       "regularPrice": "DOP$ 1,046.57",
-      "imgSrc": "./assets/img/products/herramientas/CTAMA-P.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/CTAMA-P.jpg"
     },
     {
+      "id": "hrra6",
       "name": "Concha plástica para carretilla CAT-60PL / TP-6",
       "description": "Concha plástica para carretilla CAT-60PL / TP-6, Truper",
       "regularPrice": "DOP$ 1,970.00",
-      "imgSrc": "./assets/img/products/herramientas/CO-60P.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/CO-60P.jpg"
     },
     {
+      "id": "hrra7",
       "name": "Pinza de corte diagonal 8\" mango Comfort Grip",
       "description": "Pinza de corte diagonal 8\" mango Comfort Grip, Pretul",
       "regularPrice": "DOP$ 280.00",
-      "imgSrc": "./assets/img/products/herramientas/PCD-8PX.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/PCD-8PX.jpg"
     },
     {
+      "id": "hrra8",
       "name": "Pinza de chofer 10\" mango de PVC",
       "description": "Pinza de chofer 10\" mango de PVC, Pretul",
       "regularPrice": "DOP$ 295.00",
-      "imgSrc": "./assets/img/products/herramientas/PCH-10P+E1.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/PCH-10P+E1.jpg"
     },
     {
+      "id": "hrra9",
       "name": "Pinza de corte diagonal 6\" mango de vinil, a granel",
       "description": "Pinza de corte diagonal 6\" mango de vinil, a granel, Pretul",
       "regularPrice": "DOP$ 149.00",
-      "imgSrc": "./assets/img/products/herramientas/PCD-6PG.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/PCD-6PG.jpg"
     },
     {
+      "id": "hrra10",
       "name": "Concha para carretilla CAT-KID-T",
       "description": "Concha para carretilla CAT-KID-T",
       "regularPrice": "DOP$ 409.00",
-      "imgSrc": "./assets/img/products/herramientas/CO-KID-T.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/CO-KID-T.jpg"
     },
     {
+      "id": "hrra11",
       "name": "Pinza de chofer 10\", mango comfort grip",
       "description": "Pinza de chofer 10\", mango comfort grip, Pretul",
       "regularPrice": "DOP$ 330.00",
-      "imgSrc": "./assets/img/products/herramientas/PCH-10PX+E1.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/PCH-10PX+E1.jpg"
     },
     {
+      "id": "hrra12",
       "name": "Pata ajustable para báscula electrónica de plataforma",
       "description": "Pata ajustable para báscula electrónica de plataforma",
       "regularPrice": "DOP$ 419.0",
-      "imgSrc": "./assets/img/products/herramientas/PAJ-BP8.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/PAJ-BP8.jpg"
     },
     {
+      "id": "hrra13",
       "name": "Pala redonda #4 T-2000, puño \"Y\"",
       "description": "Pala redonda #4 T-2000, puño \"Y\", Truper",
       "regularPrice": "DOP$ 645.00",
-      "imgSrc": "./assets/img/products/herramientas/PRY-P4.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/PRY-P4.jpg"
     },
     {
+      "id": "hrra14",
       "name": "Pala redonda T-1000 tipo español, puño \"Y\"",
       "description": "Pala redonda T-1000 tipo español, puño \"Y\", Truper",
       "regularPrice": "DOP$ 540.00",
-      "imgSrc": "./assets/img/products/herramientas/PPH-PE.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/PPH-PE.jpg"
     },
     {
+      "id": "hrra15",
       "name": "Llave de cruz 14\" pulida y cromada",
       "description": "Llave de cruz 14\" pulida y cromada",
       "regularPrice": "DOP$ 635.00",
-      "imgSrc": "./assets/img/products/herramientas/T102635.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/T102635.jpg"
     },
     {
+      "id": "hrra16",
       "name": "Mango para pula -7A3 (plástico, acero)",
       "description": "Mango para pula -7A3 (plástico, acero)",
       "regularPrice": "DOP$ 459.00",
-      "imgSrc": "./assets/img/products/herramientas/T101613.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/T101613.jpg"
     },
     {
+      "id": "hrra17",
       "name": "Mango para pala p/recto \"Y\", 26\"",
       "description": "Mango para pala  p/recto \"Y\", 26\"",
       "regularPrice": "DOP$ 249.00",
-      "imgSrc": "./assets/img/products/herramientas/T102604.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/T102604.jpg"
     },
     {
+      "id": "hrra18",
       "name": "Mango para pala 26\"+",
       "description": "Mango para pala 26\"+",
       "regularPrice": "DOP$ 399.00",
-      "imgSrc": "./assets/img/products/herramientas/T102700.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/T102700.jpg"
     },
     {
+      "id": "hrra19",
       "name": "Juego de 12 puntas hexagonales para desarmador",
       "description": "Juego de 12 puntas hexagonales para desarmador",
       "regularPrice": "DOP$ 205.00",
-      "imgSrc": "./assets/img/products/herramientas/T101710.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/T101710.jpg"
     },
     {
+      "id": "hrra20",
       "name": "Maleta flexible portaherramientas",
       "description": "Maleta flexible portaherramientas",
       "regularPrice": "DOP$ 765.00",
-      "imgSrc": "./assets/img/products/herramientas/T27105.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/T27105.jpg"
     },
     {
+      "id": "hrra21",
       "name": "Machete Huixtla",
       "description": "Machete Huixtla",
       "regularPrice": "DOP$ 745.00",
-      "imgSrc": "./assets/img/products/herramientas/T11639.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/T11639.jpg"
     },
     {
+      "id": "hrra22",
       "name": "Carbones escobillas para ROTO-1/2P6 Y+",
       "description": "Carbones escobillas para ROTO-1/2P6 Y+",
       "regularPrice": "DOP$ 95.00",
-      "imgSrc": "./assets/img/products/herramientas/T27118.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/T27118.jpg"
     },
     {
+      "id": "hrra23",
       "name": "Martillo California Ripper Hickory",
       "description": "Martillo California Ripper Hickory",
       "regularPrice": "DOP$ 675.00",
-      "imgSrc": "./assets/img/products/herramientas/T19990.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/T19990.jpg"
     },
     {
+      "id": "hrra24",
       "name": "Martillo pulido de bola de mango de madera",
       "description": "Martillo pulido de bola de mango de madera",
       "regularPrice": "DOP$ 399.00",
-      "imgSrc": "./assets/img/products/herramientas/T22659.jpg"
+      "imgSrc": "./src/assets/img/products/herramientas/T22659.jpg"
     }
   ],
   "herreria": [
     {
+      "id": "hrre1",
       "name": "tornillo de banco 4",
       "description": "tornillo de banco 4",
       "regularPrice": "DOP$ 1,906.78",
-      "salePrice": "DROP$ 998.00",
+      "salePrice": "DOP$ 998.00",
       "onSale": true,
       "isNew": false,
-      "imgSrc": "./assets/img/products/herreria/TA-5-L.jpg"
+      "imgSrc": "./src/assets/img/products/herreria/TA-5-L.jpg"
     },
     {
+      "id": "hrre2",
       "name": "Rondana individual 3 movible",
       "description": "Rondana individual 3 movible",
       "regularPrice": "DOP$ 260.00",
-      "salePrice": "DROP$ 120.00",
+      "salePrice": "DOP$ 120.00",
       "onSale": true,
       "isNew": false,
-      "imgSrc": "./assets/img/products/herreria/7453001139928.png"
+      "imgSrc": "./src/assets/img/products/herreria/7453001139928.png"
     },
     {
+      "id": "hrre3",
       "name": "Barras 1/2\" cuadradas",
       "description": "BARRAS 1/2\" CUADRADAS DE 20 PIES",
       "regularPrice": "DOP$ 550.00",
       "isNew": true,
-      "imgSrc": "./assets/img/products/herreria/12.jpg"
+      "imgSrc": "./src/assets/img/products/herreria/12.jpg"
     },
     {
+      "id": "hrre4",
       "name": "Barras 1/2\" redondas",
       "description": "Barras 1/2\" redondas",
       "regularPrice": "DOP$ 485.00",
       "isNew": true,
-      "imgSrc": "./assets/img/products/herreria/barraredondamacica1045laminada_540x.png"
+      "imgSrc": "./src/assets/img/products/herreria/barraredondamacica1045laminada_540x.png"
     },
     {
+      "id": "hrre5",
       "name": "Macolla decorativo",
       "description": "MACOLLA DECORATIVO EN HIERRO M106-1/2R",
       "regularPrice": "DOP$ 39.95",
-      "imgSrc": "./assets/img/products/herreria/16719.png"
+      "imgSrc": "./src/assets/img/products/herreria/16719.png"
     },
     {
+      "id": "hrre6",
       "name": "Lanza decorativa",
       "description": "LANZA DECORATIVA TR-15/A",
       "regularPrice": "DOP$ 37.83",
-      "imgSrc": "./assets/img/products/herreria/16751.png"
+      "imgSrc": "./src/assets/img/products/herreria/16751.png"
     },
     {
+      "id": "hrre7",
       "name": "Mancollas decorativo",
       "description": "MANCOLLAS DEC. HIERRO REF.ST353",
       "regularPrice": "DOP$ 50.00",
-      "imgSrc": "./assets/img/products/herreria/19732.png"
+      "imgSrc": "./src/assets/img/products/herreria/19732.png"
     },
     {
+      "id": "hrre8",
       "name": "Lanza de 1/2 en hierro",
       "description": "LANZA DE 1/2 EN HIERRO REFST133 G",
       "regularPrice": "DOP$ 34.44",
-      "imgSrc": "./assets/img/products/herreria/1999.png"
+      "imgSrc": "./src/assets/img/products/herreria/1999.png"
     },
     {
+      "id": "hrre9",
       "name": "Rondana 2 plana c/plat",
       "description": "RONDANA 2 PLANA C/PLAT 4PCS F01506",
       "regularPrice": "DOP$ 335.00",
-      "imgSrc": "./assets/img/products/herreria/7453001139850.png"
+      "imgSrc": "./src/assets/img/products/herreria/7453001139850.png"
     },
     {
+      "id": "hrre10",
       "name": "Pestillos en hierro multiuso",
       "description": "PESTILLOS MULTIUSO",
       "regularPrice": "DOP$ 200.00",
-      "imgSrc": "./assets/img/products/herreria/2446.png"
+      "imgSrc": "./src/assets/img/products/herreria/2446.png"
     },
     {
+      "id": "hrre11",
       "name": "Roseta decoratva",
       "description": "ROSETA DECORATVA SA149M",
       "regularPrice": "DOP$ 311.00",
-      "imgSrc": "./assets/img/products/herreria/25376.png"
+      "imgSrc": "./src/assets/img/products/herreria/25376.png"
     },
     {
+      "id": "hrre12",
       "name": "Copa final para malla ciclónica",
       "description": "COPA FINAL PARA MALLA CICLÓNICA, CRIOLLO",
       "regularPrice": "DOP$ 39.00",
-      "imgSrc": "./assets/img/products/herreria/29014.png"
+      "imgSrc": "./src/assets/img/products/herreria/29014.png"
     },
     {
+      "id": "hrre13",
       "name": "Palometa sencilla 1 1/2 a 1 1/4 para malla",
       "description": "PALOMETA SENCILLA 1 1/2 A 1 1/4 PARA MALLA",
       "regularPrice": "DOP$ 110.00",
-      "imgSrc": "./assets/img/products/herreria/29005.png"
+      "imgSrc": "./src/assets/img/products/herreria/29005.png"
     },
     {
+      "id": "hrre14",
       "name": "Abrazadera tensora tipo c para malla",
       "description": "ABRAZADERA TENSORA PARA MALLA, CRIOLLO",
       "regularPrice": "DOP$ 20.00",
-      "imgSrc": "./assets/img/products/herreria/29009.png"
+      "imgSrc": "./src/assets/img/products/herreria/29009.png"
     },
     {
+      "id": "hrre15",
       "name": "Piña decorativa",
       "description": "PIÑA DECORATIVA",
       "regularPrice": "DOP$ 69.00",
-      "imgSrc": "./assets/img/products/herreria/16755.png"
+      "imgSrc": "./src/assets/img/products/herreria/16755.png"
     },
     {
+      "id": "hrre16",
       "name": "Copa tensora de 1/4 para malla",
       "description": "COPA TENSORA 1/4 P/MALLA",
       "regularPrice": "DOP$ 50.00",
-      "imgSrc": "./assets/img/products/herreria/4142.png"
+      "imgSrc": "./src/assets/img/products/herreria/4142.png"
     },
     {
+      "id": "hrre17",
       "name": "Abrazadera tensora l para malla",
       "description": "ABRAZADERA TENSORA L PARA MALLA, CRIOLLO",
       "regularPrice": "DOP$ 29.00",
-      "imgSrc": "./assets/img/products/herreria/29008.png"
+      "imgSrc": "./src/assets/img/products/herreria/29008.png"
     },
     {
+      "id": "hrre18",
       "name": "Mancolla decorativo",
       "description": "MANCOLLA HY 382 5/8 R",
       "regularPrice": "DOP$ 40.00",
-      "imgSrc": "./assets/img/products/herreria/4174.png"
+      "imgSrc": "./src/assets/img/products/herreria/4174.png"
     },
     {
+      "id": "hrre19",
       "name": "Dibujo en hierro",
       "description": "DIBUJO EN HIERRO ST202",
       "regularPrice": "DOP$ 325.00",
-      "imgSrc": "./assets/img/products/herreria/4448.png"
+      "imgSrc": "./src/assets/img/products/herreria/4448.png"
     },
     {
+      "id": "hrre20",
       "name": "Flor decorativa",
       "description": "FLOR DECORATIVA EN HIERRO HY-031 B-C/B",
       "regularPrice": "DOP$ 22.00",
-      "imgSrc": "./assets/img/products/herreria/6512.png"
+      "imgSrc": "./src/assets/img/products/herreria/6512.png"
     },
     {
+      "id": "hrre21",
       "name": "Chumacera pedestal",
       "description": "CHUMACERA PEDESTAL, KDF",
       "regularPrice": "DOP$ 489.00",
-      "imgSrc": "./assets/img/products/herreria/8300.png"
+      "imgSrc": "./src/assets/img/products/herreria/8300.png"
     },
     {
+      "id": "hrre22",
       "name": "Polea hierro fb 2",
       "description": "POLEA HIERRO FB 2",
       "regularPrice": "DOP$ 1,395.00",
-      "imgSrc": "./assets/img/products/herreria/7799.png"
+      "imgSrc": "./src/assets/img/products/herreria/7799.png"
     },
     {
+      "id": "hrre23",
       "name": "Mancollas decorativo",
       "description": "MANCOLLAS DEC. HIERRO M110-5/8R SA109",
       "regularPrice": "DOP$ 35.00",
-      "imgSrc": "./assets/img/products/herreria/8784.png"
+      "imgSrc": "./src/assets/img/products/herreria/8784.png"
     },
     {
+      "id": "hrre24",
       "name": "Mancolla decorativa",
       "description": "MANCOLLA DEC. HIERRO R4159 SA107",
       "regularPrice": "DOP$ 21.00",
-      "imgSrc": "./assets/img/products/herreria/8787.png"
+      "imgSrc": "./src/assets/img/products/herreria/8787.png"
     }
   ],
   "plomeria": [
     {
+      "id": "plo1",
       "name": "Válvula de globo de ppr",
       "description": "VÁLVULA DE GLOBO DE PPR, FOSET",
       "regularPrice": "DOP$ 4,417.14",
-      "salePrice": "DROP$ 3,547.00",
+      "salePrice": "DOP$ 3,547.00",
       "onSale": true,
       "isNew": false,
-      "imgSrc": "./assets/img/products/plomeria/CV-GL-1-2.jpg"
+      "imgSrc": "./src/assets/img/products/plomeria/CV-GL-1-2.jpg"
     },
     {
+      "id": "plo2",
       "name": "Cople de cobre",
       "description": "COPLE DE COBRE, LÍNEA COPPERFLOW FOSET",
       "regularPrice": "DOP$ 17.85",
-      "salePrice": "DROP$ 12.00",
+      "salePrice": "DOP$ 12.00",
       "onSale": true,
       "isNew": false,
-      "imgSrc": "./assets/img/products/plomeria/CC-261.jpg"
+      "imgSrc": "./src/assets/img/products/plomeria/CC-261.jpg"
     },
     {
+      "id": "plo3",
       "name": "Soporte nivelador para bombas para agua Grupo 2",
       "description": "Soporte nivelador para bombas para agua Grupo 2, Truper",
       "regularPrice": "DOP$ 7,696.00",
       "isNew": true,
-      "imgSrc": "./assets/img/products/plomeria/T101717.jpg"
+      "imgSrc": "./src/assets/img/products/plomeria/T101717.jpg"
     },
     {
+      "id": "plo4",
       "name": "Válvula de control para gas 5/16\" x 1/2\"",
       "description": "VÁLVULA CONTROL PARA GAS 5/16\" X 1/2\", FOSET",
       "regularPrice": "DOP$ 170.00",
       "isNew": true,
-      "imgSrc": "./assets/img/products/plomeria/VG-554-N.jpg"
+      "imgSrc": "./src/assets/img/products/plomeria/VG-554-N.jpg"
     },
     {
+      "id": "plo5",
       "name": "Flotador eléctrico para tinaco",
       "description": "FLOTADOR ELÉCTRICO PARA TINACO 3 M, FOSET",
       "regularPrice": "DOP$ 589.00",
-      "imgSrc": "./assets/img/products/plomeria/FL-004+E1.jpg"
+      "imgSrc": "./src/assets/img/products/plomeria/FL-004+E1.jpg"
     },
     {
+      "id": "plo6",
       "name": "Niple unión npt 1/2\"",
       "description": "NIPLE UNIÓN NPT 1/2\" CON TUERCA HEXAGONAL, FOSET",
       "regularPrice": "DOP$ 94.00",
-      "imgSrc": "./assets/img/products/plomeria/CLG-666.jpg"
+      "imgSrc": "./src/assets/img/products/plomeria/CLG-666.jpg"
     },
     {
+      "id": "plo7",
       "name": "Codo niple hg",
       "description": "CODO NIPLE HG, IMPORTADO",
       "regularPrice": "DOP$ 37.28",
-      "imgSrc": "./assets/img/products/plomeria/3513.png"
+      "imgSrc": "./src/assets/img/products/plomeria/3513.png"
     },
     {
+      "id": "plo8",
       "name": "Adaptador hembra de bronce",
       "description": "ADAPTADOR HEMBRA EN POLIETILENO DE 15- 1/2 -2.5, HECHO EN ITALIA",
       "regularPrice": "DOP$ 134.00",
-      "imgSrc": "./assets/img/products/plomeria/IT109.png"
+      "imgSrc": "./src/assets/img/products/plomeria/IT109.png"
     },
     {
+      "id": "plo9",
       "name": "Adaptador macho bronce",
       "description": "NIPLO MACHO POLIETILENO  15 - 1/2 - 2.5, ITALIANA",
       "regularPrice": "DOP$ 113.28",
-      "imgSrc": "./assets/img/products/plomeria/IT104.png"
+      "imgSrc": "./src/assets/img/products/plomeria/IT104.png"
     },
     {
+      "id": "plo10",
       "name": "Adaptador macho",
       "description": "ADAPTADOR MACHO PVC, SONACA",
       "regularPrice": "DOP$ 9.42",
-      "imgSrc": "./assets/img/products/plomeria/2481.png"
+      "imgSrc": "./src/assets/img/products/plomeria/2481.png"
     },
     {
+      "id": "plo11",
       "name": "Codo de presión pvc",
       "description": "CODO DE PRESIÓN PVC, SONACA",
       "regularPrice": "DOP$ 13.77",
-      "imgSrc": "./assets/img/products/plomeria/1089.png"
+      "imgSrc": "./src/assets/img/products/plomeria/1089.png"
     },
     {
+      "id": "plo12",
       "name": "Codo de 45 grado pvc",
       "description": "CODO DE 45 GRADO PVC, IMPORTADO",
       "regularPrice": "DOP$ 16.50",
-      "imgSrc": "./assets/img/products/plomeria/16840.png"
+      "imgSrc": "./src/assets/img/products/plomeria/16840.png"
     },
     {
+      "id": "plo13",
       "name": "Codo de drenaje 90° pvc",
       "description": "CODO DE DRENAJE 90 GRADO PVC, CORVI/SONACA",
       "regularPrice": "DOP$ 32.39",
-      "imgSrc": "./assets/img/products/plomeria/1109.png"
+      "imgSrc": "./src/assets/img/products/plomeria/1109.png"
     },
     {
+      "id": "plo14",
       "name": "Coupling de presión pvc",
       "description": "COUPLING DE PRESIÓN PVC, CORVI/SONACA",
       "regularPrice": "DOP$ 9.12",
-      "imgSrc": "./assets/img/products/plomeria/1099.png"
+      "imgSrc": "./src/assets/img/products/plomeria/1099.png"
     },
     {
+      "id": "plo15",
       "name": "Clan de polietileno",
       "description": "CLAN DE POLIETILENO, ITALIANA",
       "regularPrice": "DOP$ 74.00",
-      "imgSrc": "./assets/img/products/plomeria/IT582.png"
+      "imgSrc": "./src/assets/img/products/plomeria/IT582.png"
     },
     {
+      "id": "plo16",
       "name": "Colector de agua",
       "description": "COLECTOR, HECHO EN ITALIA",
       "regularPrice": "DOP$ 369.07",
-      "imgSrc": "./assets/img/products/plomeria/IT288.png"
+      "imgSrc": "./src/assets/img/products/plomeria/IT288.png"
     },
     {
+      "id": "plo17",
       "name": "Clan pvc",
       "description": "CLAN PVC, SONACA",
       "regularPrice": "DOP$ 43.00",
-      "imgSrc": "./assets/img/products/plomeria/3042.png"
+      "imgSrc": "./src/assets/img/products/plomeria/3042.png"
     },
     {
+      "id": "plo18",
       "name": "Boquilla lavadero con tapón pvc",
       "description": "BOQUILLA LAVADERO CON TAPÓN PVC, IMPORTADO",
       "regularPrice": "DOP$ 87.00",
-      "imgSrc": "./assets/img/products/plomeria/1888.png"
+      "imgSrc": "./src/assets/img/products/plomeria/1888.png"
     },
     {
+      "id": "plo19",
       "name": "Mezcladora lavamano t/nypko spc-978",
       "description": "MEZCLADORA LAVAMANO T/NYPKO SPC-978",
       "regularPrice": "DOP$ 995.00",
-      "imgSrc": "./assets/img/products/plomeria/7082.png"
+      "imgSrc": "./src/assets/img/products/plomeria/7082.png"
     },
     {
+      "id": "plo20",
       "name": "Llave chorro 1/2\" c/ portacando italy 144",
       "description": "LLAVE CHORRO 1/2\" C/ PORTACANDO ITALY 144",
       "regularPrice": "DOP$ 763.00",
-      "imgSrc": "./assets/img/products/plomeria/3021.png"
+      "imgSrc": "./src/assets/img/products/plomeria/3021.png"
     },
     {
+      "id": "plo21",
       "name": "Puño gde. pp spc-845g metal",
       "description": "PUÑO GDE. PP SPC-845G METAL",
       "regularPrice": "DOP$ 117.00",
-      "imgSrc": "./assets/img/products/plomeria/3099.png"
+      "imgSrc": "./src/assets/img/products/plomeria/3099.png"
     },
     {
+      "id": "plo22",
       "name": "Cubre falta para mezcladora largo",
       "description": "CUBRE FALTA P/MEZC LARGO SAYCO",
       "regularPrice": "DOP$ 84.00",
-      "imgSrc": "./assets/img/products/plomeria/7488.png"
+      "imgSrc": "./src/assets/img/products/plomeria/7488.png"
     },
     {
+      "id": "plo23",
       "name": "Grifo para fregadero con cruceta",
       "description": "GRIFO P/FREGADERO C/CRUCETA REF. 2030 VIQUA",
       "regularPrice": "DOP$ 385.00",
-      "imgSrc": "./assets/img/products/plomeria/10292.png"
+      "imgSrc": "./src/assets/img/products/plomeria/10292.png"
     },
     {
+      "id": "plo24",
       "name": "Monomando lav. completo tw.",
       "description": "MONOMANDO LAV. COMPLETO TW.",
       "regularPrice": "DOP$ 1,213.00",
-      "imgSrc": "./assets/img/products/plomeria/19763.png"
+      "imgSrc": "./src/assets/img/products/plomeria/19763.png"
     }
   ],
   "pintura": [
     {
+      "id": "pin1",
       "name": "Neotint dr-20",
       "description": "NEOTINT DR-20, NicaDom",
       "regularPrice": "DOP$ 323.46",
-      "salePrice": "DROP$ 214.00",
+      "salePrice": "DOP$ 214.00",
       "onSale": true,
       "isNew": false,
-      "imgSrc": "./assets/img/products/pintura/2438.png"
+      "imgSrc": "./src/assets/img/products/pintura/2438.png"
     },
     {
+      "id": "pin2",
       "name": "Secante de resina",
       "description": "SECANTE DE RESINA, IMPORTADO",
       "regularPrice": "DOP$ 25.00",
-      "salePrice": "DROP$ 15.00",
+      "salePrice": "DOP$ 15.00",
       "onSale": true,
       "isNew": false,
-      "imgSrc": "./assets/img/products/pintura/3970.png"
+      "imgSrc": "./src/assets/img/products/pintura/3970.png"
     },
     {
+      "id": "pin3",
       "name": "Porta rolos 9 ez",
       "description": "PORTA ROLOS 9 EZ.",
       "regularPrice": "DOP$ 87.00",
       "isNew": true,
-      "imgSrc": "./assets/img/products/pintura/5332.png"
+      "imgSrc": "./src/assets/img/products/pintura/5332.png"
     },
     {
+      "id": "pin4",
       "name": "Estopa",
       "description": "Paquete de 1 libra de estopa",
       "regularPrice": "DOP$ 72.00",
       "isNew": true,
-      "imgSrc": "./assets/img/products/pintura/4899.png"
+      "imgSrc": "./src/assets/img/products/pintura/4899.png"
     },
     {
+      "id": "pin5",
       "name": "Masilla de junta para madera",
       "description": "Masilla de junta para madera",
       "regularPrice": "DOP$ 405.00",
-      "imgSrc": "./assets/img/products/pintura/11181.png"
+      "imgSrc": "./src/assets/img/products/pintura/11181.png"
     },
     {
+      "id": "pin6",
       "name": "Spray naranja",
       "description": "SPRAY DERUSTO C-GLO ORANGE DAP",
       "regularPrice": "DOP$ 496.00",
-      "imgSrc": "./assets/img/products/pintura/16996.png"
+      "imgSrc": "./src/assets/img/products/pintura/16996.png"
     },
     {
+      "id": "pin7",
       "name": "Spray amarillo canario",
       "description": "SPRAY CANARY YELLOW DAP",
       "regularPrice": "DOP$ 210.00",
-      "imgSrc": "./assets/img/products/pintura/16998.png"
+      "imgSrc": "./src/assets/img/products/pintura/16998.png"
     },
     {
+      "id": "pin8",
       "name": "Espatula",
       "description": "ESPATULA, EZ",
       "regularPrice": "DOP$ 50.00",
-      "imgSrc": "./assets/img/products/pintura/5325.png"
+      "imgSrc": "./src/assets/img/products/pintura/5325.png"
     },
     {
+      "id": "pin9",
       "name": "Oleo 37ml",
       "description": "OLEO 37ML, WINTON",
       "regularPrice": "DOP$ 309.75",
-      "imgSrc": "./assets/img/products/pintura/14389.png"
+      "imgSrc": "./src/assets/img/products/pintura/14389.png"
     },
     {
+      "id": "pin10",
       "name": "Piedra de pared",
       "description": "PIEDRA DE PARED, ANFLEX/EUROFLEX",
       "regularPrice": "DOP$ 70.00",
-      "imgSrc": "./assets/img/products/pintura/1016.png"
+      "imgSrc": "./src/assets/img/products/pintura/1016.png"
     },
     {
+      "id": "pin11",
       "name": "Pegamento pegatanque",
       "description": "PEGAMENTO PEGATANQUE, EPOXICO",
       "regularPrice": "DOP$ 445.00",
-      "imgSrc": "./assets/img/products/pintura/12127.png"
+      "imgSrc": "./src/assets/img/products/pintura/12127.png"
     },
     {
+      "id": "pin12",
       "name": "Espatula roscada no. 3",
       "description": "ESPATULA ROSCADA  NO. 3, TORNADO",
       "regularPrice": "DOP$ 294.00",
-      "imgSrc": "./assets/img/products/pintura/27732.png"
+      "imgSrc": "./src/assets/img/products/pintura/27732.png"
     },
     {
+      "id": "pin13",
       "name": "Pintura acrílica clásica corona",
       "description": "PINTURA LINEA ACRÍLICA, ACRÍLICA CLÁSICA, CORONA",
       "regularPrice": "DOP$ 604.00",
-      "imgSrc": "./assets/img/products/pintura/5GLACRILICA.png"
+      "imgSrc": "./src/assets/img/products/pintura/5GLACRILICA.png"
     },
     {
+      "id": "pin14",
       "name": "Pintura dura latex corona",
       "description": "PINTURA LÍNEA ACRÍLICA, DURA LATEX, CORONA",
       "regularPrice": "DOP$ 1,995.00",
-      "imgSrc": "./assets/img/products/pintura/galon-dura-latex.png"
+      "imgSrc": "./src/assets/img/products/pintura/galon-dura-latex.png"
     },
     {
+      "id": "pin15",
       "name": "Pintura acrílica cromatic corona",
       "description": "PINTURA LÍNEA ACRÍLICA, CROMATIC, CORONA",
       "regularPrice": "DOP$ 1,236.00",
-      "imgSrc": "./assets/img/products/pintura/CORMATICGL.png"
+      "imgSrc": "./src/assets/img/products/pintura/CORMATICGL.png"
     },
     {
+      "id": "pin16",
       "name": "Pintura esmalte fast dry corona",
       "description": "PINTURA LÍNEA ESMALTE, FAST DRY, CORONA",
       "regularPrice": "DOP$ 1,516.00",
-      "imgSrc": "./assets/img/products/pintura/FASTDRYGL.png"
+      "imgSrc": "./src/assets/img/products/pintura/FASTDRYGL.png"
     },
     {
+      "id": "pin17",
       "name": "Pintura en spray corona",
       "description": "PINTURA EN SPRAY CORONA",
       "regularPrice": "DOP$ 245.00",
-      "imgSrc": "./assets/img/products/pintura/769409155833.png"
+      "imgSrc": "./src/assets/img/products/pintura/769409155833.png"
     },
     {
+      "id": "pin18",
       "name": "Pintura acrílica plus tropical",
       "description": "PINTURA LÍNEA ACRÍLICA, PLUS, TROPICAL",
       "regularPrice": "DOP$ 1,680.00",
-      "imgSrc": "./assets/img/products/pintura/211606_1.jpg"
+      "imgSrc": "./src/assets/img/products/pintura/211606_1.jpg"
     },
     {
+      "id": "pin19",
       "name": "Pintura acrílica contractor tropical",
       "description": "PINTURA LÍNEA ACRÍLICA, CONTRACTOR, TROPICAL",
       "regularPrice": "DOP$ 965.00",
-      "imgSrc": "./assets/img/products/pintura/Capturadepantalla2020-08-04ala(s)155410.png"
+      "imgSrc": "./src/assets/img/products/pintura/Capturadepantalla2020-08-04ala(s)155410.png"
     },
     {
+      "id": "pin20",
       "name": "Pintura acrílica acritex tropical",
       "description": "PINTURA LÍNEA ACRÍLICA, ACRITEX, TROPICAL",
       "regularPrice": "DOP$ 435.00",
-      "imgSrc": "./assets/img/products/pintura/Capturadepantalla2020-08-04ala(s).png"
+      "imgSrc": "./src/assets/img/products/pintura/Capturadepantalla2020-08-04ala(s).png"
     },
     {
+      "id": "pin21",
       "name": "Pintura acrílica ultratex tropical",
       "description": "PINTURA LÍNEA ACRÍLICA, ULTRATEX, TROPICAL",
       "regularPrice": "DOP$ 790.00",
-      "imgSrc": "./assets/img/products/pintura/Capturadepantalla2020-08-04ala(s)16.03.51.png"
+      "imgSrc": "./src/assets/img/products/pintura/Capturadepantalla2020-08-04ala(s)16.03.51.png"
     },
     {
+      "id": "pin22",
       "name": "5gl blockaid blanco de 40lbs",
       "description": "5GL BLOCKAID BLANCO DE 40LBS POPULAR",
       "regularPrice": "DOP$ 2,350.00",
-      "imgSrc": "./assets/img/products/pintura/pp18.jpg"
+      "imgSrc": "./src/assets/img/products/pintura/pp18.jpg"
     },
     {
+      "id": "pin23",
       "name": "Pintura acrílica súper ecónomica tropical",
       "description": "PINTURA LÍNEA ACRÍLICA, SÚPER ECÓNOMICA, TROPICAL",
       "regularPrice": "DOP$ 316.25",
-      "imgSrc": "./assets/img/products/pintura/Capturadepantalla2020-08-04ala(s)15.55.29.png"
+      "imgSrc": "./src/assets/img/products/pintura/Capturadepantalla2020-08-04ala(s)15.55.29.png"
     },
     {
+      "id": "pin24",
       "name": "Pintura acrílica ambient sin olor tropical",
       "description": "PINTURA LÍNEA ACRÍLICA, AMBIENT SIN OLOR, TROPICAL",
       "regularPrice": "DOP$ 1,720.00",
-      "imgSrc": "./assets/img/products/pintura/Capturadepantalla2020-08-06ala(s)08.22.08.png"
+      "imgSrc": "./src/assets/img/products/pintura/Capturadepantalla2020-08-06ala(s)08.22.08.png"
     }
   ]
 }

@@ -1,16 +1,29 @@
+import { useState, useEffect } from "react";
 import Slider from "../../components/Slider";
-import Sale from "../../components/Sale";
+import CarrouselContainer from "../../Containers/CarrouselContainer";
+import Sales from "../../components/Sales";
 import New from "../../components/New";
 
-import { slides } from "../../data/slider.json";
-import products from "../../data/products.json";
+import { slides } from "../../Data/slider.json";
 
 const Home = () => {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    fetch("/src/Data/products.json")
+      .then((response) => response.json())
+      .then((data) => setProducts(data));
+  }, []);
+
   return (
     <>
       <Slider data={slides} />
-      <Sale data={products} />
-      <New />
+      <CarrouselContainer title={"Ofertas"}>
+        <Sales data={products} />
+      </CarrouselContainer>
+      <CarrouselContainer title={"Novedades"}>
+      <New data={products}/>
+      </CarrouselContainer>
     </>
   );
 };

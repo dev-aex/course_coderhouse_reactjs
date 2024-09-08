@@ -1,6 +1,6 @@
 const FooterBar = () => {
   return (
-    <section className="absolute bottom-0 w-full h-[147px] px-[138px] flex flex-col py-md bg-primario-300">
+    <section className="absolute mt-xl bottom-0 w-screen h-[147px] px-[138px] flex flex-col py-md bg-primario-300">
       <section className="flex justify-between items-center">
         {/* Logo */}
         <div>

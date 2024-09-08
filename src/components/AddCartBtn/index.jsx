@@ -1,10 +1,13 @@
 const AddCartBtn = () => {
   return (
-    <button className="w-[10rem] h-[16rem} p-[0.8rem] flex justify-center text-white rounded-xl items-center gap-3xs bg-ferre_blue300">
+    <button
+      className="w-[10rem] h-[16rem} p-[0.8rem] text-md flex justify-center text-white rounded-xl items-center gap-3xs
+     bg-ferre_blue300 hover:bg-ferre_blue400 active:bg-ferre_blue200"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="12"
-        height="13"
+        width="13"
+        height="14"
         viewBox="0 0 12 13"
         fill="none"
       >
