@@ -3,11 +3,15 @@ import Slider from "./components/Slider";
 import Deals from "./components/Deals";
 import New from "./components/New";
 
+import { slides } from "./data/slider.json";
+import products from "./data/products.json";
+
+
 function App() {
   return (
     <Base>
-      <Slider />
-      <Deals />
+      <Slider data={slides} />
+      <Deals data={products} />
       <New />
     </Base>
   );
