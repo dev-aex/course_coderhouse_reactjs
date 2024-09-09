@@ -18,7 +18,7 @@ const ProductModalDetails = () => {
         <div className="relative max-w-[80rem] h-fit bg-ferre_white grid grid-cols-2 rounded-xl">
           <button
             onClick={() => context.closeProductDetail()}
-            className="absolute z-10 right-xs top-xs"
+            className="absolute z-10 right-xs top-xs hover:opacity-60"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

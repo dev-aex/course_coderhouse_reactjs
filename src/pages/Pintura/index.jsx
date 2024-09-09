@@ -19,7 +19,7 @@ const Pintura = () => {
     <ProductDetailProvider>
       <ProductModalDetails />
       <Base>
-        <NavBar />
+        <NavBar pintura={true} />
         <ProductsListContainer>
           {products?.pintura?.map((items) => (
             <CardProduct

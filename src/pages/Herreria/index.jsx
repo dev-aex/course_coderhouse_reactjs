@@ -19,7 +19,7 @@ const Herreria = () => {
     <ProductDetailProvider>
       <ProductModalDetails />
       <Base>
-        <NavBar />
+        <NavBar herreria={true} />
         <ProductsListContainer>
           {products?.herreria?.map((items) => (
             <CardProduct

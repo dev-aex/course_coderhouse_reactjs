@@ -19,7 +19,7 @@ const Plomeria = () => {
     <ProductDetailProvider>
       <ProductModalDetails />
       <Base>
-        <NavBar />
+        <NavBar plomeria={true} />
         <ProductsListContainer>
           {products?.plomeria?.map((items) => (
             <CardProduct

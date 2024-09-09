@@ -1,37 +1,37 @@
 import { NavLink } from "react-router-dom";
 import NavButton from "../NavButton";
 
-const NavBar = () => {
+const NavBar = ({inicio, construccion, herramientas, herreria, plomeria, pintura}) => {
   return (
     <ul className="w-full h-lg flex gap-md justify-between">
       <li>
         <NavLink to="/">
-          <NavButton>Inicio</NavButton>
+          <NavButton active={inicio}>Inicio</NavButton>
         </NavLink>
       </li>
       <li>
         <NavLink to="/construccion">
-          <NavButton>Construcción</NavButton>
+          <NavButton active={construccion}>Construcción</NavButton>
         </NavLink>
       </li>
       <li>
         <NavLink to="/herramientas">
-          <NavButton>Herramientas</NavButton>
+          <NavButton active={herramientas}>Herramientas</NavButton>
         </NavLink>
       </li>
       <li>
         <NavLink to="/herreria">
-          <NavButton>Herrería</NavButton>
+          <NavButton active={herreria}>Herrería</NavButton>
         </NavLink>
       </li>
       <li>
         <NavLink to="/plomeria">
-          <NavButton>Plomería</NavButton>
+          <NavButton active={plomeria}>Plomería</NavButton>
         </NavLink>
       </li>
       <li>
         <NavLink to="/pintura">
-          <NavButton>Pintura</NavButton>
+          <NavButton active={pintura}>Pintura</NavButton>
         </NavLink>
       </li>
     </ul>

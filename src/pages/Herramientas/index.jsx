@@ -19,7 +19,7 @@ const Herramientas = () => {
     <ProductDetailProvider>
       <ProductModalDetails />
       <Base>
-        <NavBar />
+        <NavBar herramientas={true} />
         <ProductsListContainer>
           {products?.herramientas?.map((items) => (
             <CardProduct

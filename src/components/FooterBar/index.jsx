@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const FooterBar = () => {
   return (
     <section className="absolute mt-xl bottom-0 w-screen h-[147px] px-[138px] flex flex-col py-md bg-primario-300">
@@ -20,21 +22,35 @@ const FooterBar = () => {
             </svg>
           </h2>
         </div>
-        {/* Links */}
         <div>
           <ul className="flex gap-sm flex-wrap text-primario-20 text-sm font-normal">
-            <li className="hover:underline hover:cursor-pointer">
-              Construcción
-            </li>
-            <li className="hover:underline hover:cursor-pointer">
-              Herramientas
-            </li>
-            <li className="hover:underline hover:cursor-pointer">Herrería</li>
-            <li className="hover:underline hover:cursor-pointer">Plomería</li>
-            <li className="hover:underline hover:cursor-pointer">Pintura</li>
+            <NavLink to="/">
+              <li className="hover:underline hover:cursor-pointer">Inicio</li>
+            </NavLink>
+            <NavLink to="/construccion">
+              <li className="hover:underline hover:cursor-pointer">
+                Construcción
+              </li>
+            </NavLink>
+            <NavLink to="/herramientas">
+              <li className="hover:underline hover:cursor-pointer">
+                Herramientas
+              </li>
+            </NavLink>
+            <NavLink to="/herreria">
+              {" "}
+              <li className="hover:underline hover:cursor-pointer">Herrería</li>
+            </NavLink>
+            <NavLink to="/plomeria">
+              {" "}
+              <li className="hover:underline hover:cursor-pointer">Plomería</li>
+            </NavLink>
+            <NavLink to="/pintura">
+              {" "}
+              <li className="hover:underline hover:cursor-pointer">Pintura</li>
+            </NavLink>
           </ul>
         </div>
-        {/* Contacto */}
         <section className="flex flex-col gap-xs">
           <section className="flex flex-col gap-3xs">
             <div className="flex gap-xs items-center">
@@ -114,7 +130,6 @@ const FooterBar = () => {
           </div>
         </section>
       </section>
-      {/* Crédito */}
       <section>
         <p className="text-xs text-primario-20 font-light">
           © 2024 AEX. Todos los derechos reservados.

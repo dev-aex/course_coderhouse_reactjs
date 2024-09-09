@@ -19,7 +19,7 @@ const Construccion = () => {
     <ProductDetailProvider>
       <ProductModalDetails />
       <Base>
-        <NavBar />
+        <NavBar construccion={true} />
         <ProductsListContainer>
           {products?.construccion?.map((items) => (
             <CardProduct

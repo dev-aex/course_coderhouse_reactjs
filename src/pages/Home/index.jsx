@@ -24,7 +24,7 @@ const Home = () => {
     <ProductDetailProvider>
       <ProductModalDetails />
       <Base>
-        <Navbar />
+        <Navbar inicio={true} />
         <Slider data={slides} />
         <CarrouselContainer title={"Ofertas"}>
           <Sales data={products} />
