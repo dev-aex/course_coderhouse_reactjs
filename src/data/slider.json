@@ -1,16 +1,16 @@
 {
   "slides": [
-  {
-    "url": "https://picsum.photos/seed/img1/1700/360",
-    "alt": "texto alternativo de img1"
-  },
-  {
-    "url": "https://picsum.photos/seed/img2/1700/360",
-    "alt": "texto alternativo de img2"
-  },
-  {
-    "url": "https://picsum.photos/seed/img3/1700/360",
-    "alt": "texto alternativo de img3"
-  }
-]
+    {
+      "url": "src/assets/img/slide-ejemplo1.jpg",
+      "alt": "texto alternativo de img1"
+    },
+    {
+      "url": "src/assets/img/slide-ejemplo2.jpg",
+      "alt": "texto alternativo de img2"
+    },
+    {
+      "url": "src/assets/img/slide-ejemplo3.jpg",
+      "alt": "texto alternativo de img3"
+    }
+  ]
 }

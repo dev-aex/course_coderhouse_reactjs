@@ -1,5 +1,6 @@
 import { useRoutes, BrowserRouter } from "react-router-dom";
 
+
 import Home from "../Home";
 import Construccion from "../Construccion";
 import Herramientas from "../Herramientas";
@@ -7,9 +8,6 @@ import Herreria from "../Herreria";
 import Plomeria from "../Plomeria";
 import Pintura from "../Pintura";
 import NotFound from "../NotFound";
-
-import Base from "../../layout/Base";
-import Navbar from "../../components/NavBar";
 
 
 const AppRoutes = () => {
@@ -49,10 +47,8 @@ const AppRoutes = () => {
 function App() {
   return (
     <BrowserRouter>
-      <Base>
-        <Navbar />
+        {/* <Navbar /> */}
         <AppRoutes />
-      </Base>
     </BrowserRouter>
   );
 }

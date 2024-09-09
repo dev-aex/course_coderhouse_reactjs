@@ -39,7 +39,7 @@ const Slider = ({ data }) => {
               alt={item.alt}
               className={
                 slide === index
-                  ? "w-auto h-auto inline-block rounded-3xl object-cover"
+                  ? "w-full h-full inline-block rounded-3xl object-cover"
                   : "hidden"
               }
             />

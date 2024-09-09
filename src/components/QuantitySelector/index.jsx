@@ -16,7 +16,7 @@ const QuantitySelector = () => {
   };
 
   return (
-    <div className="w-full h-full flex gap-4xs justify-center items-center">
+    <div className="w-fit h-auto flex gap-4xs justify-center items-center">
       <button
         onClick={subtractQuantity}
         className="w-[2.2rem] h-[2.2rem] bg-ferre_blue300 rounded-full flex justify-center items-center hover:bg-ferre_blue400 active:bg-ferre_blue200"

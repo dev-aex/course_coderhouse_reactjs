@@ -1,8 +1,13 @@
 import { useState, useEffect } from "react";
-import Slider from "../../components/Slider";
+import Slider from "../../Components/Slider";
 import CarrouselContainer from "../../Containers/CarrouselContainer";
-import Sales from "../../components/Sales";
-import New from "../../components/New";
+import Sales from "../../Components/Sales";
+import New from "../../Components/New";
+import Base from "../../Layout/Base";
+import ProductModalDetails from "../../Components/ProductModalDetails";
+import { ProductDetailProvider } from "../../Context";
+
+import Navbar from "../../Components/NavBar";
 
 import { slides } from "../../Data/slider.json";
 
@@ -16,15 +21,19 @@ const Home = () => {
   }, []);
 
   return (
-    <>
-      <Slider data={slides} />
-      <CarrouselContainer title={"Ofertas"}>
-        <Sales data={products} />
-      </CarrouselContainer>
-      <CarrouselContainer title={"Novedades"}>
-      <New data={products}/>
-      </CarrouselContainer>
-    </>
+    <ProductDetailProvider>
+      <ProductModalDetails />
+      <Base>
+        <Navbar />
+        <Slider data={slides} />
+        <CarrouselContainer title={"Ofertas"}>
+          <Sales data={products} />
+        </CarrouselContainer>
+        <CarrouselContainer title={"Novedades"}>
+          <New data={products} />
+        </CarrouselContainer>
+      </Base>
+    </ProductDetailProvider>
   );
 };
 

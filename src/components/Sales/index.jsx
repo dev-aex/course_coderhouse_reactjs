@@ -35,6 +35,7 @@ const Sales = ({ data }) => {
           name={items.name}
           regularPrice={items.regularPrice}
           salePrice={items.salePrice}
+          description={items.description}
         />
       ))}
       {herramientasOnSale.map((items) => (
@@ -44,6 +45,7 @@ const Sales = ({ data }) => {
           name={items.name}
           regularPrice={items.regularPrice}
           salePrice={items.salePrice}
+          description={items.description}
         />
       ))}
       {herreriaOnSale.map((items) => (
@@ -53,6 +55,7 @@ const Sales = ({ data }) => {
           name={items.name}
           regularPrice={items.regularPrice}
           salePrice={items.salePrice}
+          description={items.description}
         />
       ))}
       {plomeriaOnSale.map((items) => (
@@ -62,6 +65,7 @@ const Sales = ({ data }) => {
           name={items.name}
           regularPrice={items.regularPrice}
           salePrice={items.salePrice}
+          description={items.description}
         />
       ))}
       {pinturaOnSale.map((items) => (
@@ -71,6 +75,7 @@ const Sales = ({ data }) => {
           name={items.name}
           regularPrice={items.regularPrice}
           salePrice={items.salePrice}
+          description={items.description}
         />
       ))}
     </div>

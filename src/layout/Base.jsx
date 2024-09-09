@@ -1,18 +1,17 @@
-import TopBar from "../components/TopBar";
-import NavBar from "../components/NavBar";
-import FooterBar from "../components/FooterBar";
+import TopBar from "../Components/TopBar";
+import FooterBar from "../Components/FooterBar";
 
 const Base = ({ children }) => {
   return (
-    <>
+    <div className="w-full h-full flex flex-col min-h-screen">
       <header className="mt-[8.9rem] mx-[13.8rem] flex flex-col gap-4xl">
         <TopBar />
       </header>
-      <main className="mt-3xl mx-[13.8rem] flex flex-col gap-4xl">{children}</main>
+      <main className="flex-grow mt-3xl mx-[13.8rem] flex flex-col gap-4xl">{children}</main>
       <footer>
         <FooterBar />
       </footer>
-    </>
+    </div>
   );
 };
 

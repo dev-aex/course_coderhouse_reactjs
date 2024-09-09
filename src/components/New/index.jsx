@@ -29,19 +29,49 @@ const New = ({ data }) => {
   return (
     <div className=" flex gap-md">
       {construccionIsNew.map((items) => (
-        <CardNew key={items.id} name={items.name} imgsrc={items.imgSrc} />
+        <CardNew
+          key={items.id}
+          imgsrc={items.imgSrc}
+          name={items.name}
+          regularPrice={items.regularPrice}
+          description={items.description}
+        />
       ))}
       {herramientasIsNew.map((items) => (
-        <CardNew key={items.id} name={items.name} imgsrc={items.imgSrc} />
+        <CardNew
+          key={items.id}
+          imgsrc={items.imgSrc}
+          name={items.name}
+          regularPrice={items.regularPrice}
+          description={items.description}
+        />
       ))}
       {herreriaIsNew.map((items) => (
-        <CardNew key={items.id} name={items.name} imgsrc={items.imgSrc} />
+        <CardNew
+          key={items.id}
+          imgsrc={items.imgSrc}
+          name={items.name}
+          regularPrice={items.regularPrice}
+          description={items.description}
+        />
       ))}
       {plomeriaIsNew.map((items) => (
-        <CardNew key={items.id} name={items.name} imgsrc={items.imgSrc} />
+        <CardNew
+          key={items.id}
+          imgsrc={items.imgSrc}
+          name={items.name}
+          regularPrice={items.regularPrice}
+          description={items.description}
+        />
       ))}
       {pinturaIsNew.map((items) => (
-        <CardNew key={items.id} name={items.name} imgsrc={items.imgSrc} />
+        <CardNew
+          key={items.id}
+          imgsrc={items.imgSrc}
+          name={items.name}
+          regularPrice={items.regularPrice}
+          description={items.description}
+        />
       ))}
     </div>
   );
