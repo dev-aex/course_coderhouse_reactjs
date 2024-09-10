@@ -4,8 +4,6 @@ import CarrouselContainer from "../../Containers/CarrouselContainer";
 import Sales from "../../Components/Sales";
 import New from "../../Components/New";
 import Base from "../../Layout/Base";
-import ProductModalDetails from "../../Components/ProductModalDetails";
-import { ProductDetailProvider } from "../../Context";
 
 import Navbar from "../../Components/NavBar";
 
@@ -21,19 +19,16 @@ const Home = () => {
   }, []);
 
   return (
-    <ProductDetailProvider>
-      <ProductModalDetails />
-      <Base>
-        <Navbar inicio={true} />
-        <Slider data={slides} />
-        <CarrouselContainer title={"Ofertas"}>
-          <Sales data={products} />
-        </CarrouselContainer>
-        <CarrouselContainer title={"Novedades"}>
-          <New data={products} />
-        </CarrouselContainer>
-      </Base>
-    </ProductDetailProvider>
+    <Base>
+      <Navbar inicio={true} />
+      <Slider data={slides} />
+      <CarrouselContainer title={"Ofertas"}>
+        <Sales data={products} />
+      </CarrouselContainer>
+      <CarrouselContainer title={"Novedades"}>
+        <New data={products} />
+      </CarrouselContainer>
+    </Base>
   );
 };
 

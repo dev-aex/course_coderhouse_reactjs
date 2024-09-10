@@ -3,8 +3,6 @@ import Base from "../../Layout/Base";
 import ProductsListContainer from "../../Containers/ProductsListContainer";
 import CardProduct from "../../Components/CardProduct";
 import NavBar from "../../Components/NavBar";
-import ProductModalDetails from "../../Components/ProductModalDetails";
-import { ProductDetailProvider } from "../../Context";
 
 const Herramientas = () => {
   const [products, setProducts] = useState([]);
@@ -16,23 +14,20 @@ const Herramientas = () => {
   }, []);
 
   return (
-    <ProductDetailProvider>
-      <ProductModalDetails />
-      <Base>
-        <NavBar herramientas={true} />
-        <ProductsListContainer>
-          {products?.herramientas?.map((items) => (
-            <CardProduct
-              key={items.id}
-              imgsrc={items.imgSrc}
-              name={items.name}
-              regularPrice={items.regularPrice}
-              description={items.description}
-            />
-          ))}
-        </ProductsListContainer>
-      </Base>
-    </ProductDetailProvider>
+    <Base>
+      <NavBar herramientas={true} />
+      <ProductsListContainer>
+        {products?.herramientas?.map((items) => (
+          <CardProduct
+            key={items.id}
+            imgsrc={items.imgSrc}
+            name={items.name}
+            regularPrice={items.regularPrice}
+            description={items.description}
+          />
+        ))}
+      </ProductsListContainer>
+    </Base>
   );
 };
 
