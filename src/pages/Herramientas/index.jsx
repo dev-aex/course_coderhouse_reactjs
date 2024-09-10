@@ -1,23 +1,14 @@
-import { useState, useEffect } from "react";
 import Base from "../../Layout/Base";
 import ProductsListContainer from "../../Containers/ProductsListContainer";
 import CardProduct from "../../Components/CardProduct";
 import NavBar from "../../Components/NavBar";
 
-const Herramientas = () => {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    fetch("/src/Data/products.json")
-      .then((response) => response.json())
-      .then((data) => setProducts(data));
-  }, []);
-
+const Herramientas = ({ data }) => {
   return (
     <Base>
       <NavBar herramientas={true} />
       <ProductsListContainer>
-        {products?.herramientas?.map((items) => (
+        {data?.herramientas?.map((items) => (
           <CardProduct
             key={items.id}
             imgsrc={items.imgSrc}

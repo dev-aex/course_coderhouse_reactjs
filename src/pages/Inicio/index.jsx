@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import Slider from "../../Components/Slider";
 import CarrouselContainer from "../../Containers/CarrouselContainer";
 import Sales from "../../Components/Sales";
@@ -9,24 +8,17 @@ import Navbar from "../../Components/NavBar";
 
 import { slides } from "../../Data/slider.json";
 
-const Home = () => {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    fetch("/src/Data/products.json")
-      .then((response) => response.json())
-      .then((data) => setProducts(data));
-  }, []);
+const Home = ({data}) => {
 
   return (
     <Base>
       <Navbar inicio={true} />
       <Slider data={slides} />
       <CarrouselContainer title={"Ofertas"}>
-        <Sales data={products} />
+        <Sales data={data} />
       </CarrouselContainer>
       <CarrouselContainer title={"Novedades"}>
-        <New data={products} />
+        <New data={data} />
       </CarrouselContainer>
     </Base>
   );
