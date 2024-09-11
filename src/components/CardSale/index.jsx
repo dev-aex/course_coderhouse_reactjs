@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import AddCartBtn from "../AddCartBtn";
 import QuantitySelector from "../QuantitySelector";
-import { ProductDetailContext } from "../../Context/ProductDetailContext";
+import { ProductDetailContext } from "../../context/ProductDetailContext";
 
 const CardSale = ({ imgsrc, name, regularPrice, salePrice, description }) => {
   const context = useContext(ProductDetailContext);

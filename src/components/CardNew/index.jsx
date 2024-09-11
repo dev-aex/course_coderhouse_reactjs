@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ProductDetailContext } from "../../Context/ProductDetailContext";
+import { ProductDetailContext } from "../../context/ProductDetailContext";
 
 const cardNew = ({ imgsrc, name, regularPrice, description }) => {
   const context = useContext(ProductDetailContext);
