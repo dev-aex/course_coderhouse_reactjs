@@ -1,5 +1,5 @@
-import TopBar from "../Components/TopBar";
-import FooterBar from "../Components/FooterBar";
+import TopBar from "../components/TopBar";
+import FooterBar from "../components/FooterBar";
 
 const Base = ({ children }) => {
   return (
