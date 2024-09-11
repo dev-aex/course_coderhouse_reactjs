@@ -1,12 +1,12 @@
-import Slider from "../../Components/Slider";
-import CarrouselContainer from "../../Containers/CarrouselContainer";
-import Sales from "../../Components/Sales";
-import New from "../../Components/New";
-import Base from "../../Layout/Base";
+import Slider from "../../components/Slider";
+import CarrouselContainer from "../../containers/CarrouselContainer";
+import Sales from "../../components/Sales";
+import New from "../../components/New";
+import Base from "../../layout/Base";
 
-import Navbar from "../../Components/NavBar";
+import Navbar from "../../components/NavBar";
 
-import { slides } from "../../Data/slider.json";
+import { slides } from "../../data/slider.json";
 
 const Home = ({data}) => {
 

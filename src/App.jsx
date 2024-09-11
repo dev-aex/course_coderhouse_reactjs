@@ -1,24 +1,27 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-import Inicio from "./Pages/Inicio";
-import Construccion from "./Pages/Construccion";
-import Herramientas from "./Pages/Herramientas";
-import Herreria from "./Pages/Herreria";
-import Plomeria from "./Pages/Plomeria";
-import Pintura from "./Pages/Pintura";
-import NotFound from "./Pages/NotFound";
+import Inicio from "./pages/Inicio";
+import Construccion from "./pages/Construccion";
+import Herramientas from "./pages/Herramientas";
+import Herreria from "./pages/Herreria";
+import Plomeria from "./pages/Plomeria";
+import Pintura from "./pages/Pintura";
+import NotFound from "./pages/NotFound";
 
-import { ProductDetailProvider } from "./Context/ProductDetailContext";
-import ProductModalDetails from "./Components/ProductModalDetails";
+import { ProductDetailProvider } from "./context/ProductDetailContext";
+import ProductModalDetails from "./components/ProductModalDetails";
 
 function App() {
   const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    setLoading(true);
     fetch("/src/Data/products.json")
       .then((response) => response.json())
-      .then((data) => setData(data));
+      .then((data) => setData(data))
+      .finally(setLoading(false));
   }, []);
 
   return (

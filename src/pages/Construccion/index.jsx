@@ -1,7 +1,7 @@
-import Base from "../../Layout/Base";
-import ProductsListContainer from "../../Containers/ProductsListContainer";
-import CardProduct from "../../Components/CardProduct";
-import NavBar from "../../Components/NavBar";
+import Base from "../../layout/Base";
+import ProductsListContainer from "../../containers/ProductsListContainer";
+import CardProduct from "../../components/CardProduct";
+import NavBar from "../../components/NavBar";
 
 const Construccion = ({ data }) => {
   return (
