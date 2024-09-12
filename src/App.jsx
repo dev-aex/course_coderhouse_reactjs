@@ -14,14 +14,11 @@ import ProductModalDetails from "./components/ProductModalDetails";
 
 function App() {
   const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setLoading(true);
     fetch("/src/data/products.json")
       .then((response) => response.json())
-      .then((data) => setData(data))
-      .finally(setLoading(false));
+      .then((data) => setData(data));
   }, []);
 
   return (
