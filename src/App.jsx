@@ -18,7 +18,7 @@ function App() {
 
   useEffect(() => {
     setLoading(true);
-    fetch("/src/Data/products.json")
+    fetch("/src/data/products.json")
       .then((response) => response.json())
       .then((data) => setData(data))
       .finally(setLoading(false));
