@@ -16,6 +16,7 @@ export const ShoppingCartContextProvider = ({ children }) => {
     setQuantityProducts(productInShoppingCart.length);
   }, [productInShoppingCart]);
 
+  // Delete product
   const deleteProductCart = (productName) => {
     const updatedProducts = productInShoppingCart.filter((product) => {
       return product.name !== productName;
