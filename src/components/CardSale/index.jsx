@@ -1,20 +1,40 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import AddCartBtn from "../AddCartBtn";
 import QuantitySelector from "../QuantitySelector";
 import { ProductDetailContext } from "../../context/ProductDetailContext";
+import { ShoppingCartContext } from "../../context/ShoppingCartContext";
 
 const CardSale = ({ imgsrc, name, regularPrice, salePrice, description }) => {
-  const context = useContext(ProductDetailContext);
+  // contexts
+  const detailContext = useContext(ProductDetailContext);
+  const cartContext = useContext(ShoppingCartContext);
 
+  // Show product details
   const showProduct = () => {
     const productInfo = { imgsrc, name, regularPrice, description };
-    context.openProductDetail();
-    context.setProductToShow(productInfo);
+    detailContext.openProductDetail();
+    detailContext.setProductToShow(productInfo);
+  };
+
+  // Add to cart
+  const addProductToCart = () => {
+    const poductData = {
+      imgsrc: imgsrc,
+      name: name,
+      salePrice: salePrice,
+    };
+    cartContext?.setProductInShoppingCart([
+      ...cartContext.productInShoppingCart,
+      poductData,
+    ]);
   };
 
   return (
     <article className="w-[24.7rem] h-[36.5rem]] bg-white shadow-lg shadow-ferre_blue400/25 shadow-xs shadow-ferre_blue400/50 rounded-xl">
-      <figure onClick={showProduct} className="w-full h-[12.6rem] mb-4xs cursor-pointer hover:opacity-50">
+      <figure
+        onClick={showProduct}
+        className="w-full h-[12.6rem] mb-4xs cursor-pointer hover:opacity-50"
+      >
         <img
           className="w-full h-full object-contain rounded-t-lg"
           src={imgsrc}
@@ -23,7 +43,10 @@ const CardSale = ({ imgsrc, name, regularPrice, salePrice, description }) => {
       </figure>
       <section className="w-full h-full">
         <div className="w-full h-[11.6rem] mb-xs px-xs flex flex-col justify-between place-content-between items-start">
-          <h4 onClick={showProduct} className="w-full h-full mb-4xs pt-4xs text-md font-bold text-ferre_blue400 cursor-pointer hover:text-ferre_blue100">
+          <h4
+            onClick={showProduct}
+            className="w-full h-full mb-4xs pt-4xs text-md font-bold text-ferre_blue400 cursor-pointer hover:text-ferre_blue100"
+          >
             {name}
           </h4>
           <p className="w-full h-full flex flex-col">
@@ -37,7 +60,7 @@ const CardSale = ({ imgsrc, name, regularPrice, salePrice, description }) => {
         </div>
         <div className="px-xs pb-xs flex gap-3xs justify-center items-center">
           <QuantitySelector />
-          <AddCartBtn />
+          <AddCartBtn action={addProductToCart} />
         </div>
       </section>
     </article>

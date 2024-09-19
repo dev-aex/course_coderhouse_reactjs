@@ -2,14 +2,32 @@ import { useContext } from "react";
 import AddCartBtn from "../AddCartBtn";
 import QuantitySelector from "../QuantitySelector";
 import { ProductDetailContext } from "../../context/ProductDetailContext";
+import { ShoppingCartContext } from "../../context/ShoppingCartContext";
 
 const CardProduct = ({ imgsrc, name, regularPrice, description }) => {
-  const context = useContext(ProductDetailContext);
+  
+  // contexts
+  const detailContext = useContext(ProductDetailContext);
+  const cartContext = useContext(ShoppingCartContext);
 
+  // Show product details
   const showProduct = () => {
     const productInfo = { imgsrc, name, regularPrice, description };
-    context.openProductDetail();
-    context.setProductToShow(productInfo);
+    detailContext.openProductDetail();
+    detailContext.setProductToShow(productInfo);
+  };
+
+  // Add to cart
+  const addProductToCart = () => {
+    const poductData = {
+      imgsrc: imgsrc,
+      name: name,
+      regularPrice: regularPrice,
+    };
+    cartContext?.setProductInShoppingCart([
+      ...cartContext.productInShoppingCart,
+      poductData,
+    ]);
   };
 
   return (
@@ -40,7 +58,7 @@ const CardProduct = ({ imgsrc, name, regularPrice, description }) => {
         </div>
         <div className="w-full flex px-xs justify-between items-center">
           <QuantitySelector />
-          <AddCartBtn />
+          <AddCartBtn action={addProductToCart} />
         </div>
       </section>
     </article>

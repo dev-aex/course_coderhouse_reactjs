@@ -3,6 +3,7 @@ import { createContext, useState } from "react";
 export const ProductDetailContext = createContext();
 
 export const ProductDetailProvider = ({ children }) => {
+
   const [isProductDetailOpen, setIsProductDetailOpen] = useState(false);
   const [productToShow, setProductToShow] = useState({});
 

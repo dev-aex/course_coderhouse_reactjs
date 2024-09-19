@@ -4,6 +4,7 @@ import CardProduct from "../../components/CardProduct";
 import NavBar from "../../components/NavBar";
 
 const Construccion = ({ data }) => {
+  
   return (
     <Base>
       <NavBar construccion={true} />

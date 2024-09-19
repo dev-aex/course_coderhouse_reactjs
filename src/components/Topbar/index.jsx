@@ -1,7 +1,10 @@
 import SearchBar from "../SearchBar";
-import ShoppingCart from "../ShoppingCart";
+import ShoppingCartIcon from "../ShoppingCartIcon";
+import { ShoppingCartContext } from "../../context/ShoppingCartContext";
+import { useContext } from "react";
 
 const TopBar = () => {
+  const context = useContext(ShoppingCartContext);
   return (
     <section className="flex justify-between items-start">
       <h1>
@@ -46,7 +49,7 @@ const TopBar = () => {
             </span>
           </div>
         </section>
-        <ShoppingCart quantity={0} />
+        <ShoppingCartIcon quantity={context.quantityProducts} />
       </section>
     </section>
   );
