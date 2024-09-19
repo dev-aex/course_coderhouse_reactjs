@@ -19,56 +19,53 @@ import ProductModalDetails from "./components/ProductModalDetails";
 
 // Providers
 import { ProductDetailProvider } from "./context/ProductDetailContext";
-import { GlobalContextProvider } from "./context/GlobalContext";
 import { ShoppingCartContextProvider } from "./context/ShoppingCartContext";
 
 function App() {
   const globalContext = useContext(GlobalContext);
 
   return (
-    <GlobalContextProvider>
-      <ShoppingCartContextProvider>
-        <ProductDetailProvider>
-          <ShoppingCart />
-          <ProductModalDetails />
-          <BrowserRouter>
-            <Routes>
-              <Route
-                exact
-                path="/"
-                element={<Inicio data={globalContext?.data} />}
-              />
-              <Route
-                exact
-                path="/construccion"
-                element={<Construccion data={globalContext?.data} />}
-              />
-              <Route
-                exact
-                path="/herramientas"
-                element={<Herramientas data={globalContext?.data} />}
-              />
-              <Route
-                exact
-                path="/herreria"
-                element={<Herreria data={globalContext?.data} />}
-              />
-              <Route
-                exact
-                path="/plomeria"
-                element={<Plomeria data={globalContext?.data} />}
-              />
-              <Route
-                exact
-                path="/pintura"
-                element={<Pintura data={globalContext?.data} />}
-              />
-              <Route exact path="/*" element={<NotFound />} />
-            </Routes>
-          </BrowserRouter>
-        </ProductDetailProvider>
-      </ShoppingCartContextProvider>
-    </GlobalContextProvider>
+    <ShoppingCartContextProvider>
+      <ProductDetailProvider>
+        <ShoppingCart />
+        <ProductModalDetails />
+        <BrowserRouter>
+          <Routes>
+            <Route
+              exact
+              path="/"
+              element={<Inicio data={globalContext?.data} />}
+            />
+            <Route
+              exact
+              path="/construccion"
+              element={<Construccion data={globalContext?.data} />}
+            />
+            <Route
+              exact
+              path="/herramientas"
+              element={<Herramientas data={globalContext?.data} />}
+            />
+            <Route
+              exact
+              path="/herreria"
+              element={<Herreria data={globalContext?.data} />}
+            />
+            <Route
+              exact
+              path="/plomeria"
+              element={<Plomeria data={globalContext?.data} />}
+            />
+            <Route
+              exact
+              path="/pintura"
+              element={<Pintura data={globalContext?.data} />}
+            />
+            <Route exact path="/*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </ProductDetailProvider>
+    </ShoppingCartContextProvider>
   );
 }
 

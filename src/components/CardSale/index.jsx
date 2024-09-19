@@ -1,4 +1,5 @@
-import { useContext, useEffect } from "react";
+import { formatNumbers } from "../../utils/formatNumbers";
+import { useContext, useState } from "react";
 import AddCartBtn from "../AddCartBtn";
 import QuantitySelector from "../QuantitySelector";
 import { ProductDetailContext } from "../../context/ProductDetailContext";
@@ -18,15 +19,34 @@ const CardSale = ({ imgsrc, name, regularPrice, salePrice, description }) => {
 
   // Add to cart
   const addProductToCart = () => {
+    const multiplication = regularPrice * quantity;
+
     const poductData = {
       imgsrc: imgsrc,
       name: name,
-      salePrice: salePrice,
+      regularPrice: regularPrice,
+      quantity: quantity,
+      multiplication: multiplication.toFixed(2),
     };
     cartContext?.setProductInShoppingCart([
       ...cartContext.productInShoppingCart,
       poductData,
     ]);
+  };
+
+  //Quantity
+  const [quantity, setQuantity] = useState(1);
+
+  const addQuantity = () => {
+    if (quantity < 9999) {
+      setQuantity(quantity + 1);
+    }
+  };
+
+  const subtractQuantity = () => {
+    if (quantity > 1) {
+      setQuantity(quantity - 1);
+    }
   };
 
   return (
@@ -51,15 +71,19 @@ const CardSale = ({ imgsrc, name, regularPrice, salePrice, description }) => {
           </h4>
           <p className="w-full h-full flex flex-col">
             <span className="text-sm font-semibold text-ferre_blue50 line-through">
-              {regularPrice}
+              {formatNumbers(regularPrice)}
             </span>
             <span className="text-lg font-bold text-ferre_red">
-              {salePrice}
+              {formatNumbers(salePrice)}
             </span>
           </p>
         </div>
         <div className="px-xs pb-xs flex gap-3xs justify-center items-center">
-          <QuantitySelector />
+          <QuantitySelector
+            addQuantity={addQuantity}
+            subtractQuantity={subtractQuantity}
+            quantity={quantity}
+          />
           <AddCartBtn action={addProductToCart} />
         </div>
       </section>

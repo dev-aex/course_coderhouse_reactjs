@@ -8,8 +8,7 @@ import Navbar from "../../components/NavBar";
 
 import { slides } from "../../data/slider.json";
 
-const Home = ({data}) => {
-
+const Home = ({ data }) => {
   return (
     <Base>
       <Navbar inicio={true} />
