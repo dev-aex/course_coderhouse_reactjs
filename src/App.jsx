@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useContext } from "react";
 
 // Contexts
-import { ShoppingCartContextProvider } from "./context/ShoppingCartContext";
 import { GlobalContext } from "./context/GlobalContext";
 
 // Pages
@@ -15,48 +14,54 @@ import Pintura from "./pages/Pintura";
 import NotFound from "./pages/NotFound";
 
 // Components
-// import ShoppingCart from "./components/ShoppingCart";
+import ShoppingCart from "./components/ShoppingCart";
 import ProductModalDetails from "./components/ProductModalDetails";
 
 // Providers
 import { ProductDetailProvider } from "./context/ProductDetailContext";
 import { GlobalContextProvider } from "./context/GlobalContext";
+import { ShoppingCartContextProvider } from "./context/ShoppingCartContext";
 
 function App() {
-  const context = useContext(GlobalContext);
+  const globalContext = useContext(GlobalContext);
 
   return (
     <GlobalContextProvider>
       <ShoppingCartContextProvider>
         <ProductDetailProvider>
+          <ShoppingCart />
           <ProductModalDetails />
           <BrowserRouter>
             <Routes>
-              <Route exact path="/" element={<Inicio data={context?.data} />} />
+              <Route
+                exact
+                path="/"
+                element={<Inicio data={globalContext?.data} />}
+              />
               <Route
                 exact
                 path="/construccion"
-                element={<Construccion data={context?.data} />}
+                element={<Construccion data={globalContext?.data} />}
               />
               <Route
                 exact
                 path="/herramientas"
-                element={<Herramientas data={context?.data} />}
+                element={<Herramientas data={globalContext?.data} />}
               />
               <Route
                 exact
                 path="/herreria"
-                element={<Herreria data={context?.data} />}
+                element={<Herreria data={globalContext?.data} />}
               />
               <Route
                 exact
                 path="/plomeria"
-                element={<Plomeria data={context?.data} />}
+                element={<Plomeria data={globalContext?.data} />}
               />
               <Route
                 exact
                 path="/pintura"
-                element={<Pintura data={context?.data} />}
+                element={<Pintura data={globalContext?.data} />}
               />
               <Route exact path="/*" element={<NotFound />} />
             </Routes>

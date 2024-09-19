@@ -1,3 +1,4 @@
+import {formatNumbers} from "../../utils/formatNumbers";
 import { useState, useEffect } from "react";
 import CardSale from "../CardSale";
 
@@ -33,8 +34,8 @@ const Sales = ({ data }) => {
           key={items.id}
           imgsrc={items.imgSrc}
           name={items.name}
-          regularPrice={items.regularPrice}
-          salePrice={items.salePrice}
+          regularPrice={formatNumbers(items.regularPrice)}
+          salePrice={formatNumbers(items.salePrice)}
           description={items.description}
         />
       ))}
@@ -43,8 +44,8 @@ const Sales = ({ data }) => {
           key={items.id}
           imgsrc={items.imgSrc}
           name={items.name}
-          regularPrice={items.regularPrice}
-          salePrice={items.salePrice}
+          regularPrice={formatNumbers(items.regularPrice)}
+          salePrice={formatNumbers(items.salePrice)}
           description={items.description}
         />
       ))}
@@ -53,8 +54,8 @@ const Sales = ({ data }) => {
           key={items.id}
           imgsrc={items.imgSrc}
           name={items.name}
-          regularPrice={items.regularPrice}
-          salePrice={items.salePrice}
+          regularPrice={formatNumbers(items.regularPrice)}
+          salePrice={formatNumbers(items.salePrice)}
           description={items.description}
         />
       ))}
@@ -63,8 +64,8 @@ const Sales = ({ data }) => {
           key={items.id}
           imgsrc={items.imgSrc}
           name={items.name}
-          regularPrice={items.regularPrice}
-          salePrice={items.salePrice}
+          regularPrice={formatNumbers(items.regularPrice)}
+          salePrice={formatNumbers(items.salePrice)}
           description={items.description}
         />
       ))}
@@ -73,8 +74,8 @@ const Sales = ({ data }) => {
           key={items.id}
           imgsrc={items.imgSrc}
           name={items.name}
-          regularPrice={items.regularPrice}
-          salePrice={items.salePrice}
+          regularPrice={formatNumbers(items.regularPrice)}
+          salePrice={formatNumbers(items.salePrice)}
           description={items.description}
         />
       ))}

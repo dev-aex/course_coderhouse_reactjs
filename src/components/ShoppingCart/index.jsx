@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import { formatNumbers } from "../../utils/formatNumbers";
 import { ShoppingCartContext } from "../../context/ShoppingCartContext";
 
 import ShoppingCartProductDetail from "../ShoppingCartProductDetail";
@@ -6,11 +7,27 @@ import ShoppingCartProductDetail from "../ShoppingCartProductDetail";
 const ShoppingCart = () => {
   const context = useContext(ShoppingCartContext);
 
+  const total = () => {
+    return context.productInShoppingCart.reduce((accu, item) => {
+      return accu + parseFloat(item.multiplication);
+    }, 0);
+  };
+
   return (
-    <section className="fixed z-10 w-full h-full py-2xl bg-ferre_blue400/60 flex justify-end items-center">
+    <section
+      className={`${
+        context.showShoppingCart
+          ? "fixed z-10 w-full h-full py-2xl bg-ferre_blue400/60 flex justify-end items-center"
+          : "hidden"
+      }`}
+    >
       <div className="w-1/3 h-full flex flex-col bg-ferre_white rounded-l-xl">
         <div className="w-full mb-xs p-xs">
           <svg
+            className="hover:opacity-60 hover:cursor-pointer"
+            onClick={() =>
+              context.setShowShoppingCart(!context.showShoppingCart)
+            }
             xmlns="http://www.w3.org/2000/svg"
             width="17"
             height="16"
@@ -29,18 +46,26 @@ const ShoppingCart = () => {
         </div>
         <hr className="border-ferre_blue400 " />
         <div className="w-full h-full p-md flex flex-col gap-md overflow-y-auto">
-
-        <ShoppingCartProductDetail name={"titulo"} img={"titulo"} price={"22,1254"} quantity={2} />
+          {context.productInShoppingCart.map((items, index) => (
+            <ShoppingCartProductDetail
+              key={index}
+              name={items.name}
+              img={items.imgsrc}
+              price={items.regularPrice}
+              quantity={items.quantity}
+              multiplication={items.multiplication}
+            />
+          ))}
         </div>
         <div className="w-full p-lg flex flex-col items-end gap-md">
           <div className="w-full flex gap-xs justify-between">
             <p className="text-xl font-semibold text-ferre_blue300">Total:</p>
             <p className="text-xl font-semibold text-ferre_blue300">
-              DOP$ <span>0.00</span>
+              <span>{formatNumbers(total())}</span>
             </p>
           </div>
-          <button className="py-4xs px-xs text-white text-base bg-ferre_blue200 flex gap-4xs justify-center items-center rounded-lg">
-            Procesar compra{" "}
+          <button className="py-4xs px-xs text-white text-base bg-ferre_blue200 flex gap-4xs justify-center items-center rounded-lg hover:bg-ferre_blue300 active:bg-ferre_blue200  ">
+            Procesar compra
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

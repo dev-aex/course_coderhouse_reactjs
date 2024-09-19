@@ -5,6 +5,7 @@ import { useContext } from "react";
 
 const TopBar = () => {
   const context = useContext(ShoppingCartContext);
+
   return (
     <section className="flex justify-between items-start">
       <h1>

@@ -1,20 +1,4 @@
-import { useState } from "react";
-
-const QuantitySelector = () => {
-  const [quantity, setQuantity] = useState(1);
-
-  const addQuantity = () => {
-    if (quantity < 9999) {
-      setQuantity(quantity + 1);
-    }
-  };
-
-  const subtractQuantity = () => {
-    if (quantity > 1) {
-      setQuantity(quantity - 1);
-    }
-  };
-
+const QuantitySelector = ({ quantity, subtractQuantity, addQuantity }) => {
   return (
     <div className="w-fit h-auto flex gap-4xs justify-center items-center">
       <button
