@@ -41,7 +41,9 @@ const ShoppingCartProductDetail = ({
         <h4 className="max-w-md text-base text-ferre_blue400">{name}</h4>
       </div>
       <div className="w-fit h-full text-base">
-        <p className="text-ferre_blue500 whitespace-nowrap">{formatNumbers(price)}</p>
+        <p className="text-ferre_blue500 whitespace-nowrap">
+          {formatNumbers(price)}
+        </p>
         <p className="text-ferre_blue500 whitespace-nowrap">x{quantity}</p>
         <p className="font-bold text-ferre_blue300 whitespace-nowrap">
           {formatNumbers(multiplication)}

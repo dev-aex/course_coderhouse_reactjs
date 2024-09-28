@@ -1,4 +1,3 @@
-import { formatNumbers } from "../../utils/formatNumbers";
 import { useContext, useState } from "react";
 import AddCartBtn from "../AddCartBtn";
 import QuantitySelector from "../QuantitySelector";
@@ -25,6 +24,8 @@ const ProductModalDetails = () => {
       ...cartContext.productInShoppingCart,
       productData,
     ]);
+
+    closeProductDetail();
   };
 
   //Quantity
@@ -95,7 +96,7 @@ const ProductModalDetails = () => {
                 {detailContext?.productToShow.description}
               </p>
               <p className="text-xl font-bold text-ferre_blue200">
-                {detailContext?.productToShow.regularPrice}
+                DOP$ {detailContext?.productToShow.regularPrice}
               </p>
             </div>
             <div className="mb-md flex items-center justify-between">

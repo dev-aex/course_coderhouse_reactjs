@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 
 // utils
 import { formatNumbers } from "../../utils/formatNumbers";
@@ -6,9 +6,13 @@ import { formatNumbers } from "../../utils/formatNumbers";
 // Components
 import QuantitySelector from "../QuantitySelector";
 
+// Context
+import { ShoppingCartContext } from "../../context/ShoppingCartContext";
+
 const MyOrderProductCard = ({ imgsrc, name, price, productQuantity }) => {
   const [quantity, setQuantity] = useState(productQuantity);
 
+  
   const addQuantity = () => {
     if (quantity < 9999) {
       setQuantity(quantity + 1);
@@ -21,15 +25,21 @@ const MyOrderProductCard = ({ imgsrc, name, price, productQuantity }) => {
     }
   };
 
+  // Context
+  const context = useContext(ShoppingCartContext);
+
+  // Delete Product
+  const deleteProduct = () => {
+    context.deleteProductCart(name);
+  };
+
   return (
     <>
       <div className="w-full grid grid-cols-6 gap-3xl items-center">
         <div className="w-fit col-span-1">
           <svg
             className="hover:opacity-60 hover:cursor-pointer"
-            onClick={() =>
-              context?.setShowShoppingCart(!context.showShoppingCart)
-            }
+            onClick={() => deleteProduct()}
             xmlns="http://www.w3.org/2000/svg"
             width="17"
             height="16"

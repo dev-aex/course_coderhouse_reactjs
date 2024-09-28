@@ -15,7 +15,8 @@
       "name": "Aditivo para empañete rosado de 32 oz",
       "description": "ADITIVO PARA EMPAÑETE ROSADO DE 32 OZ CANO",
       "regularPrice": 306.00,
-      "onSale": false,
+      "salePrice": 200.00,
+      "onSale": true,
       "isNew": false,
       "imgSrc": "./src/assets/img/products/construccion/Silbond-32-onz.png"
     },
@@ -32,7 +33,7 @@
       "name": "Zinc liso",
       "description": "Zinc liso. VENTA POR PLACHA DE 3 X 6 ( PIE ) Calibre 29 Calibre 34",
       "regularPrice": 240.00,
-      "isNew": false,
+      "isNew": true,
       "imgSrc": "./src/assets/img/products/construccion/Codigos-147-148.jpg"
     },
     {

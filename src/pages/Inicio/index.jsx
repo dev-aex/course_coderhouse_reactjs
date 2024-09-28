@@ -1,10 +1,14 @@
-import Slider from "../../components/Slider";
-import HomeProductsContainer from "../../containers/HomeProductsContainer";
-import Sales from "../../components/Sales";
-import New from "../../components/New";
+// Layout
 import Base from "../../layout/Base";
 
+// Containers
+import HomeProductsContainer from "../../containers/HomeProductsContainer";
+
+// Components
 import Navbar from "../../components/NavBar";
+import Sales from "../../components/Sales";
+import New from "../../components/New";
+import Slider from "../../components/Slider";
 
 import { slides } from "../../data/slider.json";
 

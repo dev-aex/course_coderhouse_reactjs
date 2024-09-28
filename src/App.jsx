@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 
 // Contexts
 import { GlobalContext } from "./context/GlobalContext";
@@ -24,6 +24,11 @@ import { ShoppingCartContextProvider } from "./context/ShoppingCartContext";
 
 function App() {
   const globalContext = useContext(GlobalContext);
+
+  useEffect(() => {
+    console.log(globalContext?.data);
+    
+  }, [globalContext.data])
 
   return (
     <ShoppingCartContextProvider>
