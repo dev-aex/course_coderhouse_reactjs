@@ -1,3 +1,4 @@
+// Components
 import TopBar from "../components/TopBar";
 import FooterBar from "../components/FooterBar";
 

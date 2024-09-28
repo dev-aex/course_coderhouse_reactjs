@@ -1,7 +1,10 @@
 import { createContext, useState, useEffect } from "react";
 import { collection, getDocs } from "firebase/firestore";
+
+// Database
 import { db } from "../../config/firebase.config";
 
+// Create context
 export const GlobalContext = createContext();
 
 export const GlobalContextProvider = ({ children }) => {
