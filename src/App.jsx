@@ -12,6 +12,7 @@ import Herreria from "./pages/Herreria";
 import Plomeria from "./pages/Plomeria";
 import Pintura from "./pages/Pintura";
 import NotFound from "./pages/NotFound";
+import MiOrden from "./pages/MiOrden";
 
 // Components
 import ShoppingCart from "./components/ShoppingCart";
@@ -27,9 +28,9 @@ function App() {
   return (
     <ShoppingCartContextProvider>
       <ProductDetailProvider>
-        <ShoppingCart />
-        <ProductModalDetails />
         <BrowserRouter>
+          <ShoppingCart />
+          <ProductModalDetails />
           <Routes>
             <Route
               exact
@@ -61,6 +62,7 @@ function App() {
               path="/pintura"
               element={<Pintura data={globalContext?.data} />}
             />
+            <Route exact path="/miorden" element={<MiOrden />} />
             <Route exact path="/*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

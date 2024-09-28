@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Slider = ({ data }) => {
   const [slide, setSlide] = useState(0);

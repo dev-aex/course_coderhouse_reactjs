@@ -3,6 +3,7 @@ import { createContext, useState, useEffect } from "react";
 export const ShoppingCartContext = createContext();
 
 export const ShoppingCartContextProvider = ({ children }) => {
+  
   // Show Shopping Cart
   const [showShoppingCart, setShowShoppingCart] = useState(false);
 

@@ -1,12 +1,15 @@
+/* Tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Font */
 @font-face {
   font-family: "TT Firs Neue";
   src: url("./assets/fonts/TT-firs-neue/TTFirsNeueVarRoman.ttf") format("ttf");
 }
 
+/* Global styles */
 html {
   font-size: 62.5%;
 }

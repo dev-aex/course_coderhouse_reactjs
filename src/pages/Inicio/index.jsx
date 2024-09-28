@@ -1,5 +1,5 @@
 import Slider from "../../components/Slider";
-import CarrouselContainer from "../../containers/CarrouselContainer";
+import HomeProductsContainer from "../../containers/HomeProductsContainer";
 import Sales from "../../components/Sales";
 import New from "../../components/New";
 import Base from "../../layout/Base";
@@ -13,12 +13,12 @@ const Home = ({ data }) => {
     <Base>
       <Navbar inicio={true} />
       <Slider data={slides} />
-      <CarrouselContainer title={"Ofertas"}>
+      <HomeProductsContainer title={"Ofertas"}>
         <Sales data={data} />
-      </CarrouselContainer>
-      <CarrouselContainer title={"Novedades"}>
+      </HomeProductsContainer>
+      <HomeProductsContainer title={"Novedades"}>
         <New data={data} />
-      </CarrouselContainer>
+      </HomeProductsContainer>
     </Base>
   );
 };

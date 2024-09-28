@@ -1,12 +1,12 @@
-const CarrouselContainer = ({children, title}) => {
+const HomeProductsContainer = ({ children, title }) => {
   return (
-    <section>
+    <section className="mb-lg">
       <h2 className="mb-xs text-xl font-bold text-primario-300">{title}</h2>
       <div className="w-full h-full flex gap-3xs">
-      {children}
+        {children}
         </div>
     </section>
-  )
-}
+  );
+};
 
-export default CarrouselContainer
+export default HomeProductsContainer;
