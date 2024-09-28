@@ -12,6 +12,7 @@ import QuantitySelector from "../QuantitySelector";
 import AddCartBtn from "../AddCartBtn";
 
 const CardSale = ({ imgsrc, name, regularPrice, salePrice, description }) => {
+  
   // contexts variables
   const detailContext = useContext(ProductDetailContext);
   const cartContext = useContext(ShoppingCartContext);
