@@ -8,7 +8,7 @@
       "salePrice": 645.00,
       "onSale": true,
       "isNew": false,
-      "imgSrc": "./src/assets/img/products/construccion/PK27.jpg"
+      "imgSrc": "/img/products/construccion/PK27.jpg"
     },
     {
       "id": "c2",
@@ -18,7 +18,7 @@
       "salePrice": 200.00,
       "onSale": true,
       "isNew": false,
-      "imgSrc": "./src/assets/img/products/construccion/Silbond-32-onz.png"
+      "imgSrc": "/img/products/construccion/Silbond-32-onz.png"
     },
     {
       "id": "c3",
@@ -26,7 +26,7 @@
       "description": "ZINC  ACANALADO",
       "regularPrice": 359.99,
       "isNew": true,
-      "imgSrc": "./src/assets/img/products/construccion/13702.jpg"
+      "imgSrc": "/img/products/construccion/13702.jpg"
     },
     {
       "id": "c4",
@@ -34,147 +34,147 @@
       "description": "Zinc liso. VENTA POR PLACHA DE 3 X 6 ( PIE ) Calibre 29 Calibre 34",
       "regularPrice": 240.00,
       "isNew": true,
-      "imgSrc": "./src/assets/img/products/construccion/Codigos-147-148.jpg"
+      "imgSrc": "/img/products/construccion/Codigos-147-148.jpg"
     },
     {
       "id": "c5",
       "name": "Super glue-pega instantanea 10 oz",
       "description": "Super glue-pega instantanea 10 oz",
       "regularPrice": 42.00,
-      "imgSrc": "./src/assets/img/products/construccion/790920049875.png"
+      "imgSrc": "/img/products/construccion/790920049875.png"
     },
     {
       "id": "c6",
       "name": "Cemento blanco 5 lbs",
       "description": "CEMENTO BLANCO PURO 5 LIBRAS",
       "regularPrice": 133.00,
-      "imgSrc": "./src/assets/img/products/construccion/2099.jpg"
+      "imgSrc": "/img/products/construccion/2099.jpg"
     },
     {
       "id": "c7",
       "name": "Playwood 3/4 Mdf slat wall blanco",
       "description": "Playwood 3/4 Mdf slat wall blanco. Venta por plancha de 4 x 8 ( PIE )",
       "regularPrice": 1855.00,
-      "imgSrc": "./src/assets/img/products/construccion/Codigos-222617.jpg"
+      "imgSrc": "/img/products/construccion/Codigos-222617.jpg"
     },
     {
       "id": "c8",
       "name": "Aditivo para empañete azul de 32 onza",
       "description": "ADITIVO PARA EMPAÑETE AZUL DE 32 ONZA CANO",
       "regularPrice": 325.00,
-      "imgSrc": "./src/assets/img/products/construccion/Silbond-Ultra-32-onz.png"
+      "imgSrc": "/img/products/construccion/Silbond-Ultra-32-onz.png"
     },
     {
       "id": "c9",
       "name": "Yeso 2lb",
       "description": "Yeso 2lb",
       "regularPrice": 25.00,
-      "imgSrc": "./src/assets/img/products/construccion/7465710056045.png"
+      "imgSrc": "/img/products/construccion/7465710056045.png"
     },
     {
       "id": "c10",
       "name": "Clavos",
       "description": "CLAVOS CORRIENTE CRIOLLO. SE VENDE POR LIBRA",
       "regularPrice": 43.00,
-      "imgSrc": "./src/assets/img/products/construccion/3354.png"
+      "imgSrc": "/img/products/construccion/3354.png"
     },
     {
       "id": "c11",
       "name": "Clavos especiales",
       "description": "CLAVOS ESPECIALES, CON CABEZA Y SIN CABEZA, CORVI",
       "regularPrice": 64.78,
-      "imgSrc": "./src/assets/img/products/construccion/3363.png"
+      "imgSrc": "/img/products/construccion/3363.png"
     },
     {
       "id": "c12",
       "name": "Alambre púas 250 mts.",
       "description": "ALAMBRE PUAS C.16  250 MTS, MOTTO",
       "regularPrice": 3300.00,
-      "imgSrc": "./src/assets/img/products/construccion/PUA.jpg"
+      "imgSrc": "/img/products/construccion/PUA.jpg"
     },
     {
       "id": "c13",
       "name": "Grapa púa",
       "description": "GRAPA PÚA. SE VENDE POR LIBRA",
       "regularPrice": 65.00,
-      "imgSrc": "./src/assets/img/products/construccion/3372.jpg"
+      "imgSrc": "/img/products/construccion/3372.jpg"
     },
     {
       "id": "c14",
       "name": "M3 grava de 3/4",
       "description": "M3 GRAVA DE 3/4. SE VENDE POR METRO CÚBICO (MT3)",
       "regularPrice": 1575.00,
-      "imgSrc": "./src/assets/img/products/construccion/Grava-codigo-404.jpg"
+      "imgSrc": "/img/products/construccion/Grava-codigo-404.jpg"
     },
     {
       "id": "c15",
       "name": "Playwood 3/4\" (4' X 8') enconfrar 1 cara franja roja americano",
       "description": "Playwood 3/4\" (4' X 8') enconfrar 1 cara franja roja americano",
       "regularPrice": 3495.00,
-      "imgSrc": "./src/assets/img/products/construccion/playwood.png"
+      "imgSrc": "/img/products/construccion/playwood.png"
     },
     {
       "id": "c16",
       "name": "Malla ciclónica",
       "description": "Malla ciclónica",
       "regularPrice": 4432.00,
-      "imgSrc": "./src/assets/img/products/construccion/2.jpg"
+      "imgSrc": "/img/products/construccion/2.jpg"
     },
     {
       "id": "c17",
       "name": "M3 arena estado natural",
       "description": "M3 ARENA ESTADO NATURAL. SE VENDE POR METRO CÚBICO (MT3)",
       "regularPrice": 1395.00,
-      "imgSrc": "./src/assets/img/products/construccion/Arena-Itabo-codigo-400.png"
+      "imgSrc": "/img/products/construccion/Arena-Itabo-codigo-400.png"
     },
     {
       "id": "c18",
       "name": "Estuco de 14 kg",
       "description": "Estuco de 14 kg para interior y exterior. Colores: Blanco y Gris",
       "regularPrice": 375.00,
-      "imgSrc": "./src/assets/img/products/construccion/PegacolEstucoSS.png"
+      "imgSrc": "/img/products/construccion/PegacolEstucoSS.png"
     },
     {
       "id": "c19",
       "name": "Masilla yeso ProFrom",
       "description": "MASILLA YESO PRO-FORM  US 50LBS",
       "regularPrice": 1630.00,
-      "imgSrc": "./src/assets/img/products/construccion/022332023397.png"
+      "imgSrc": "/img/products/construccion/022332023397.png"
     },
     {
       "id": "c20",
       "name": "Madera bruta pino americana",
       "description": "MADERA  BRUTA PINO AMERICANA. SE VENDE POR UNIDAD",
       "regularPrice": 295.00,
-      "imgSrc": "./src/assets/img/products/construccion/505.jpg"
+      "imgSrc": "/img/products/construccion/505.jpg"
     },
     {
       "id": "c21",
       "name": "Cartón piedra grueso",
       "description": "CARTÓN PIEDRA GRUESO. VENTA POR PLANCHA DE 4 x 8 ( PIE )",
       "regularPrice": 405.00,
-      "imgSrc": "./src/assets/img/products/construccion/Codigo-65.jpg"
+      "imgSrc": "/img/products/construccion/Codigo-65.jpg"
     },
     {
       "id": "c22",
       "name": "Malla de piñonate",
       "description": "Malla de piñonate. Venta por plancha de 4 x 8 ( pie )",
       "regularPrice": 1315.00,
-      "imgSrc": "./src/assets/img/products/construccion/Todas-las-Mallas-de-Piñonate.jpg"
+      "imgSrc": "/img/products/construccion/Todas-las-Mallas-de-Piñonate.jpg"
     },
     {
       "id": "c23",
       "name": "Playwood okume chino",
       "description": "Playwood okume chino. Venta por plancha en pie de ( 4' X 8') ,( 2.5'  X 7' ) y( 2.66'  X 7' )",
       "regularPrice": 485.00,
-      "imgSrc": "./src/assets/img/products/construccion/Todos-los-playwood-Okume.jpg"
+      "imgSrc": "/img/products/construccion/Todos-los-playwood-Okume.jpg"
     },
     {
       "id": "c24",
       "name": "Cemento gris santo domingo",
       "description": "Cemento gris santo domingo",
       "regularPrice": 445.00,
-      "imgSrc": "./src/assets/img/products/construccion/Cemento-gris-santo-domingo.png"
+      "imgSrc": "/img/products/construccion/Cemento-gris-santo-domingo.png"
     }
   ],
   "herramientas": [
@@ -186,7 +186,7 @@
       "salePrice": 3245.00,
       "onSale": true,
       "isNew": false,
-      "imgSrc": "./src/assets/img/products/herramientas/BAT-20A4.jpg"
+      "imgSrc": "/img/products/herramientas/BAT-20A4.jpg"
     },
     {
       "id": "hrra2",
@@ -195,7 +195,7 @@
       "regularPrice": 1046.57,
       "onSale": false,
       "isNew": false,
-      "imgSrc": "./src/assets/img/products/herramientas/CHA-19S+D3.jpg"
+      "imgSrc": "/img/products/herramientas/CHA-19S+D3.jpg"
     },
     {
       "id": "hrra3",
@@ -203,7 +203,7 @@
       "description": "PLANA DE ALBAÑIL FILADELFIA PRETUL",
       "regularPrice": 151.54,
       "isNew": true,
-      "imgSrc": "./src/assets/img/products/herramientas/CT-6P.jpg"
+      "imgSrc": "/img/products/herramientas/CT-6P.jpg"
     },
     {
       "id": "hrra4",
@@ -211,147 +211,147 @@
       "description": "Avellanador HSS cambio rápido, Truper",
       "regularPrice": 245.00,
       "isNew": false,
-      "imgSrc": "./src/assets/img/products/herramientas/AV-5-8.jpg"
+      "imgSrc": "/img/products/herramientas/AV-5-8.jpg"
     },
     {
       "id": "hrra5",
       "name": "Cortador anular",
       "description": "Cortador anular",
       "regularPrice": 1046.57,
-      "imgSrc": "./src/assets/img/products/herramientas/CTAMA-P.jpg"
+      "imgSrc": "/img/products/herramientas/CTAMA-P.jpg"
     },
     {
       "id": "hrra6",
       "name": "Concha plástica para carretilla CAT-60PL / TP-6",
       "description": "Concha plástica para carretilla CAT-60PL / TP-6, Truper",
       "regularPrice": 1970.00,
-      "imgSrc": "./src/assets/img/products/herramientas/CO-60P.jpg"
+      "imgSrc": "/img/products/herramientas/CO-60P.jpg"
     },
     {
       "id": "hrra7",
       "name": "Pinza de corte diagonal 8\" mango Comfort Grip",
       "description": "Pinza de corte diagonal 8\" mango Comfort Grip, Pretul",
       "regularPrice": 280.00,
-      "imgSrc": "./src/assets/img/products/herramientas/PCD-8PX.jpg"
+      "imgSrc": "/img/products/herramientas/PCD-8PX.jpg"
     },
     {
       "id": "hrra8",
       "name": "Pinza de chofer 10\" mango de PVC",
       "description": "Pinza de chofer 10\" mango de PVC, Pretul",
       "regularPrice": 295.00,
-      "imgSrc": "./src/assets/img/products/herramientas/PCH-10P+E1.jpg"
+      "imgSrc": "/img/products/herramientas/PCH-10P+E1.jpg"
     },
     {
       "id": "hrra9",
       "name": "Pinza de corte diagonal 6\" mango de vinil, a granel",
       "description": "Pinza de corte diagonal 6\" mango de vinil, a granel, Pretul",
       "regularPrice": 149.00,
-      "imgSrc": "./src/assets/img/products/herramientas/PCD-6PG.jpg"
+      "imgSrc": "/img/products/herramientas/PCD-6PG.jpg"
     },
     {
       "id": "hrra10",
       "name": "Concha para carretilla CAT-KID-T",
       "description": "Concha para carretilla CAT-KID-T",
       "regularPrice": 409.00,
-      "imgSrc": "./src/assets/img/products/herramientas/CO-KID-T.jpg"
+      "imgSrc": "/img/products/herramientas/CO-KID-T.jpg"
     },
     {
       "id": "hrra11",
       "name": "Pinza de chofer 10\", mango comfort grip",
       "description": "Pinza de chofer 10\", mango comfort grip, Pretul",
       "regularPrice": 330.00,
-      "imgSrc": "./src/assets/img/products/herramientas/PCH-10PX+E1.jpg"
+      "imgSrc": "/img/products/herramientas/PCH-10PX+E1.jpg"
     },
     {
       "id": "hrra12",
       "name": "Pata ajustable para báscula electrónica de plataforma",
       "description": "Pata ajustable para báscula electrónica de plataforma",
       "regularPrice": 419.0,
-      "imgSrc": "./src/assets/img/products/herramientas/PAJ-BP8.jpg"
+      "imgSrc": "/img/products/herramientas/PAJ-BP8.jpg"
     },
     {
       "id": "hrra13",
       "name": "Pala redonda #4 T-2000, puño \"Y\"",
       "description": "Pala redonda #4 T-2000, puño \"Y\", Truper",
       "regularPrice": 645.00,
-      "imgSrc": "./src/assets/img/products/herramientas/PRY-P4.jpg"
+      "imgSrc": "/img/products/herramientas/PRY-P4.jpg"
     },
     {
       "id": "hrra14",
       "name": "Pala redonda T-1000 tipo español, puño \"Y\"",
       "description": "Pala redonda T-1000 tipo español, puño \"Y\", Truper",
       "regularPrice": 540.00,
-      "imgSrc": "./src/assets/img/products/herramientas/PPH-PE.jpg"
+      "imgSrc": "/img/products/herramientas/PPH-PE.jpg"
     },
     {
       "id": "hrra15",
       "name": "Llave de cruz 14\" pulida y cromada",
       "description": "Llave de cruz 14\" pulida y cromada",
       "regularPrice": 635.00,
-      "imgSrc": "./src/assets/img/products/herramientas/T102635.jpg"
+      "imgSrc": "/img/products/herramientas/T102635.jpg"
     },
     {
       "id": "hrra16",
       "name": "Mango para pula -7A3 (plástico, acero)",
       "description": "Mango para pula -7A3 (plástico, acero)",
       "regularPrice": 459.00,
-      "imgSrc": "./src/assets/img/products/herramientas/T101613.jpg"
+      "imgSrc": "/img/products/herramientas/T101613.jpg"
     },
     {
       "id": "hrra17",
       "name": "Mango para pala p/recto \"Y\", 26\"",
       "description": "Mango para pala  p/recto \"Y\", 26\"",
       "regularPrice": 249.00,
-      "imgSrc": "./src/assets/img/products/herramientas/T102604.jpg"
+      "imgSrc": "/img/products/herramientas/T102604.jpg"
     },
     {
       "id": "hrra18",
       "name": "Mango para pala 26\"+",
       "description": "Mango para pala 26\"+",
       "regularPrice": 399.00,
-      "imgSrc": "./src/assets/img/products/herramientas/T102700.jpg"
+      "imgSrc": "/img/products/herramientas/T102700.jpg"
     },
     {
       "id": "hrra19",
       "name": "Juego de 12 puntas hexagonales para desarmador",
       "description": "Juego de 12 puntas hexagonales para desarmador",
       "regularPrice": 205.00,
-      "imgSrc": "./src/assets/img/products/herramientas/T101710.jpg"
+      "imgSrc": "/img/products/herramientas/T101710.jpg"
     },
     {
       "id": "hrra20",
       "name": "Maleta flexible portaherramientas",
       "description": "Maleta flexible portaherramientas",
       "regularPrice": 765.00,
-      "imgSrc": "./src/assets/img/products/herramientas/T27105.jpg"
+      "imgSrc": "/img/products/herramientas/T27105.jpg"
     },
     {
       "id": "hrra21",
       "name": "Machete Huixtla",
       "description": "Machete Huixtla",
       "regularPrice": 745.00,
-      "imgSrc": "./src/assets/img/products/herramientas/T11639.jpg"
+      "imgSrc": "/img/products/herramientas/T11639.jpg"
     },
     {
       "id": "hrra22",
       "name": "Carbones escobillas para ROTO-1/2P6 Y+",
       "description": "Carbones escobillas para ROTO-1/2P6 Y+",
       "regularPrice": 95.00,
-      "imgSrc": "./src/assets/img/products/herramientas/T27118.jpg"
+      "imgSrc": "/img/products/herramientas/T27118.jpg"
     },
     {
       "id": "hrra23",
       "name": "Martillo California Ripper Hickory",
       "description": "Martillo California Ripper Hickory",
       "regularPrice": 675.00,
-      "imgSrc": "./src/assets/img/products/herramientas/T19990.jpg"
+      "imgSrc": "/img/products/herramientas/T19990.jpg"
     },
     {
       "id": "hrra24",
       "name": "Martillo pulido de bola de mango de madera",
       "description": "Martillo pulido de bola de mango de madera",
       "regularPrice": 399.00,
-      "imgSrc": "./src/assets/img/products/herramientas/T22659.jpg"
+      "imgSrc": "/img/products/herramientas/T22659.jpg"
     }
   ],
   "herreria": [
@@ -363,7 +363,7 @@
       "salePrice": 998.00,
       "onSale": true,
       "isNew": false,
-      "imgSrc": "./src/assets/img/products/herreria/TA-5-L.jpg"
+      "imgSrc": "/img/products/herreria/TA-5-L.jpg"
     },
     {
       "id": "hrre2",
@@ -372,7 +372,7 @@
       "regularPrice": 260.00,
       "onSale": false,
       "isNew": false,
-      "imgSrc": "./src/assets/img/products/herreria/7453001139928.png"
+      "imgSrc": "/img/products/herreria/7453001139928.png"
     },
     {
       "id": "hrre3",
@@ -380,7 +380,7 @@
       "description": "BARRAS 1/2\" CUADRADAS DE 20 PIES",
       "regularPrice": 550.00,
       "isNew": true,
-      "imgSrc": "./src/assets/img/products/herreria/12.jpg"
+      "imgSrc": "/img/products/herreria/12.jpg"
     },
     {
       "id": "hrre4",
@@ -388,147 +388,147 @@
       "description": "Barras 1/2\" redondas",
       "regularPrice": 485.00,
       "isNew": false,
-      "imgSrc": "./src/assets/img/products/herreria/barraredondamacica1045laminada_540x.png"
+      "imgSrc": "/img/products/herreria/barraredondamacica1045laminada_540x.png"
     },
     {
       "id": "hrre5",
       "name": "Macolla decorativo",
       "description": "MACOLLA DECORATIVO EN HIERRO M106-1/2R",
       "regularPrice": 39.95,
-      "imgSrc": "./src/assets/img/products/herreria/16719.png"
+      "imgSrc": "/img/products/herreria/16719.png"
     },
     {
       "id": "hrre6",
       "name": "Lanza decorativa",
       "description": "LANZA DECORATIVA TR-15/A",
       "regularPrice": 37.83,
-      "imgSrc": "./src/assets/img/products/herreria/16751.png"
+      "imgSrc": "/img/products/herreria/16751.png"
     },
     {
       "id": "hrre7",
       "name": "Mancollas decorativo",
       "description": "MANCOLLAS DEC. HIERRO REF.ST353",
       "regularPrice": 50.00,
-      "imgSrc": "./src/assets/img/products/herreria/19732.png"
+      "imgSrc": "/img/products/herreria/19732.png"
     },
     {
       "id": "hrre8",
       "name": "Lanza de 1/2 en hierro",
       "description": "LANZA DE 1/2 EN HIERRO REFST133 G",
       "regularPrice": 34.44,
-      "imgSrc": "./src/assets/img/products/herreria/1999.png"
+      "imgSrc": "/img/products/herreria/1999.png"
     },
     {
       "id": "hrre9",
       "name": "Rondana 2 plana c/plat",
       "description": "RONDANA 2 PLANA C/PLAT 4PCS F01506",
       "regularPrice": 335.00,
-      "imgSrc": "./src/assets/img/products/herreria/7453001139850.png"
+      "imgSrc": "/img/products/herreria/7453001139850.png"
     },
     {
       "id": "hrre10",
       "name": "Pestillos en hierro multiuso",
       "description": "PESTILLOS MULTIUSO",
       "regularPrice": 200.00,
-      "imgSrc": "./src/assets/img/products/herreria/2446.png"
+      "imgSrc": "/img/products/herreria/2446.png"
     },
     {
       "id": "hrre11",
       "name": "Roseta decoratva",
       "description": "ROSETA DECORATVA SA149M",
       "regularPrice": 311.00,
-      "imgSrc": "./src/assets/img/products/herreria/25376.png"
+      "imgSrc": "/img/products/herreria/25376.png"
     },
     {
       "id": "hrre12",
       "name": "Copa final para malla ciclónica",
       "description": "COPA FINAL PARA MALLA CICLÓNICA, CRIOLLO",
       "regularPrice": 39.00,
-      "imgSrc": "./src/assets/img/products/herreria/29014.png"
+      "imgSrc": "/img/products/herreria/29014.png"
     },
     {
       "id": "hrre13",
       "name": "Palometa sencilla 1 1/2 a 1 1/4 para malla",
       "description": "PALOMETA SENCILLA 1 1/2 A 1 1/4 PARA MALLA",
       "regularPrice": 110.00,
-      "imgSrc": "./src/assets/img/products/herreria/29005.png"
+      "imgSrc": "/img/products/herreria/29005.png"
     },
     {
       "id": "hrre14",
       "name": "Abrazadera tensora tipo c para malla",
       "description": "ABRAZADERA TENSORA PARA MALLA, CRIOLLO",
       "regularPrice": 20.00,
-      "imgSrc": "./src/assets/img/products/herreria/29009.png"
+      "imgSrc": "/img/products/herreria/29009.png"
     },
     {
       "id": "hrre15",
       "name": "Piña decorativa",
       "description": "PIÑA DECORATIVA",
       "regularPrice": 69.00,
-      "imgSrc": "./src/assets/img/products/herreria/16755.png"
+      "imgSrc": "/img/products/herreria/16755.png"
     },
     {
       "id": "hrre16",
       "name": "Copa tensora de 1/4 para malla",
       "description": "COPA TENSORA 1/4 P/MALLA",
       "regularPrice": 50.00,
-      "imgSrc": "./src/assets/img/products/herreria/4142.png"
+      "imgSrc": "/img/products/herreria/4142.png"
     },
     {
       "id": "hrre17",
       "name": "Abrazadera tensora l para malla",
       "description": "ABRAZADERA TENSORA L PARA MALLA, CRIOLLO",
       "regularPrice": 29.00,
-      "imgSrc": "./src/assets/img/products/herreria/29008.png"
+      "imgSrc": "/img/products/herreria/29008.png"
     },
     {
       "id": "hrre18",
       "name": "Mancolla decorativo",
       "description": "MANCOLLA HY 382 5/8 R",
       "regularPrice": 40.00,
-      "imgSrc": "./src/assets/img/products/herreria/4174.png"
+      "imgSrc": "/img/products/herreria/4174.png"
     },
     {
       "id": "hrre19",
       "name": "Dibujo en hierro",
       "description": "DIBUJO EN HIERRO ST202",
       "regularPrice": 325.00,
-      "imgSrc": "./src/assets/img/products/herreria/4448.png"
+      "imgSrc": "/img/products/herreria/4448.png"
     },
     {
       "id": "hrre20",
       "name": "Flor decorativa",
       "description": "FLOR DECORATIVA EN HIERRO HY-031 B-C/B",
       "regularPrice": 22.00,
-      "imgSrc": "./src/assets/img/products/herreria/6512.png"
+      "imgSrc": "/img/products/herreria/6512.png"
     },
     {
       "id": "hrre21",
       "name": "Chumacera pedestal",
       "description": "CHUMACERA PEDESTAL, KDF",
       "regularPrice": 489.00,
-      "imgSrc": "./src/assets/img/products/herreria/8300.png"
+      "imgSrc": "/img/products/herreria/8300.png"
     },
     {
       "id": "hrre22",
       "name": "Polea hierro fb 2",
       "description": "POLEA HIERRO FB 2",
       "regularPrice": 1395.00,
-      "imgSrc": "./src/assets/img/products/herreria/7799.png"
+      "imgSrc": "/img/products/herreria/7799.png"
     },
     {
       "id": "hrre23",
       "name": "Mancollas decorativo",
       "description": "MANCOLLAS DEC. HIERRO M110-5/8R SA109",
       "regularPrice": 35.00,
-      "imgSrc": "./src/assets/img/products/herreria/8784.png"
+      "imgSrc": "/img/products/herreria/8784.png"
     },
     {
       "id": "hrre24",
       "name": "Mancolla decorativa",
       "description": "MANCOLLA DEC. HIERRO R4159 SA107",
       "regularPrice": 21.00,
-      "imgSrc": "./src/assets/img/products/herreria/8787.png"
+      "imgSrc": "/img/products/herreria/8787.png"
     }
   ],
   "plomeria": [
@@ -540,7 +540,7 @@
       "salePrice": 3547.00,
       "onSale": true,
       "isNew": false,
-      "imgSrc": "./src/assets/img/products/plomeria/CV-GL-1-2.jpg"
+      "imgSrc": "/img/products/plomeria/CV-GL-1-2.jpg"
     },
     {
       "id": "plo2",
@@ -549,7 +549,7 @@
       "regularPrice": 17.85,
       "onSale": false,
       "isNew": false,
-      "imgSrc": "./src/assets/img/products/plomeria/CC-261.jpg"
+      "imgSrc": "/img/products/plomeria/CC-261.jpg"
     },
     {
       "id": "plo3",
@@ -557,7 +557,7 @@
       "description": "Soporte nivelador para bombas para agua Grupo 2, Truper",
       "regularPrice": 7696.00,
       "isNew": true,
-      "imgSrc": "./src/assets/img/products/plomeria/T101717.jpg"
+      "imgSrc": "/img/products/plomeria/T101717.jpg"
     },
     {
       "id": "plo4",
@@ -565,147 +565,147 @@
       "description": "VÁLVULA CONTROL PARA GAS 5/16\" X 1/2\", FOSET",
       "regularPrice": 170.00,
       "isNew": false,
-      "imgSrc": "./src/assets/img/products/plomeria/VG-554-N.jpg"
+      "imgSrc": "/img/products/plomeria/VG-554-N.jpg"
     },
     {
       "id": "plo5",
       "name": "Flotador eléctrico para tinaco",
       "description": "FLOTADOR ELÉCTRICO PARA TINACO 3 M, FOSET",
       "regularPrice": 589.00,
-      "imgSrc": "./src/assets/img/products/plomeria/FL-004+E1.jpg"
+      "imgSrc": "/img/products/plomeria/FL-004+E1.jpg"
     },
     {
       "id": "plo6",
       "name": "Niple unión npt 1/2\"",
       "description": "NIPLE UNIÓN NPT 1/2\" CON TUERCA HEXAGONAL, FOSET",
       "regularPrice": 94.00,
-      "imgSrc": "./src/assets/img/products/plomeria/CLG-666.jpg"
+      "imgSrc": "/img/products/plomeria/CLG-666.jpg"
     },
     {
       "id": "plo7",
       "name": "Codo niple hg",
       "description": "CODO NIPLE HG, IMPORTADO",
       "regularPrice": 37.28,
-      "imgSrc": "./src/assets/img/products/plomeria/3513.png"
+      "imgSrc": "/img/products/plomeria/3513.png"
     },
     {
       "id": "plo8",
       "name": "Adaptador hembra de bronce",
       "description": "ADAPTADOR HEMBRA EN POLIETILENO DE 15- 1/2 -2.5, HECHO EN ITALIA",
       "regularPrice": 134.00,
-      "imgSrc": "./src/assets/img/products/plomeria/IT109.png"
+      "imgSrc": "/img/products/plomeria/IT109.png"
     },
     {
       "id": "plo9",
       "name": "Adaptador macho bronce",
       "description": "NIPLO MACHO POLIETILENO  15 - 1/2 - 2.5, ITALIANA",
       "regularPrice": 113.28,
-      "imgSrc": "./src/assets/img/products/plomeria/IT104.png"
+      "imgSrc": "/img/products/plomeria/IT104.png"
     },
     {
       "id": "plo10",
       "name": "Adaptador macho",
       "description": "ADAPTADOR MACHO PVC, SONACA",
       "regularPrice": 9.42,
-      "imgSrc": "./src/assets/img/products/plomeria/2481.png"
+      "imgSrc": "/img/products/plomeria/2481.png"
     },
     {
       "id": "plo11",
       "name": "Codo de presión pvc",
       "description": "CODO DE PRESIÓN PVC, SONACA",
       "regularPrice": 13.77,
-      "imgSrc": "./src/assets/img/products/plomeria/1089.png"
+      "imgSrc": "/img/products/plomeria/1089.png"
     },
     {
       "id": "plo12",
       "name": "Codo de 45 grado pvc",
       "description": "CODO DE 45 GRADO PVC, IMPORTADO",
       "regularPrice": 16.50,
-      "imgSrc": "./src/assets/img/products/plomeria/16840.png"
+      "imgSrc": "/img/products/plomeria/16840.png"
     },
     {
       "id": "plo13",
       "name": "Codo de drenaje 90° pvc",
       "description": "CODO DE DRENAJE 90 GRADO PVC, CORVI/SONACA",
       "regularPrice": 32.39,
-      "imgSrc": "./src/assets/img/products/plomeria/1109.png"
+      "imgSrc": "/img/products/plomeria/1109.png"
     },
     {
       "id": "plo14",
       "name": "Coupling de presión pvc",
       "description": "COUPLING DE PRESIÓN PVC, CORVI/SONACA",
       "regularPrice": 9.12,
-      "imgSrc": "./src/assets/img/products/plomeria/1099.png"
+      "imgSrc": "/img/products/plomeria/1099.png"
     },
     {
       "id": "plo15",
       "name": "Clan de polietileno",
       "description": "CLAN DE POLIETILENO, ITALIANA",
       "regularPrice": 74.00,
-      "imgSrc": "./src/assets/img/products/plomeria/IT582.png"
+      "imgSrc": "/img/products/plomeria/IT582.png"
     },
     {
       "id": "plo16",
       "name": "Colector de agua",
       "description": "COLECTOR, HECHO EN ITALIA",
       "regularPrice": 369.07,
-      "imgSrc": "./src/assets/img/products/plomeria/IT288.png"
+      "imgSrc": "/img/products/plomeria/IT288.png"
     },
     {
       "id": "plo17",
       "name": "Clan pvc",
       "description": "CLAN PVC, SONACA",
       "regularPrice": 43.00,
-      "imgSrc": "./src/assets/img/products/plomeria/3042.png"
+      "imgSrc": "/img/products/plomeria/3042.png"
     },
     {
       "id": "plo18",
       "name": "Boquilla lavadero con tapón pvc",
       "description": "BOQUILLA LAVADERO CON TAPÓN PVC, IMPORTADO",
       "regularPrice": 87.00,
-      "imgSrc": "./src/assets/img/products/plomeria/1888.png"
+      "imgSrc": "/img/products/plomeria/1888.png"
     },
     {
       "id": "plo19",
       "name": "Mezcladora lavamano t/nypko spc-978",
       "description": "MEZCLADORA LAVAMANO T/NYPKO SPC-978",
       "regularPrice": 995.00,
-      "imgSrc": "./src/assets/img/products/plomeria/7082.png"
+      "imgSrc": "/img/products/plomeria/7082.png"
     },
     {
       "id": "plo20",
       "name": "Llave chorro 1/2\" c/ portacando italy 144",
       "description": "LLAVE CHORRO 1/2\" C/ PORTACANDO ITALY 144",
       "regularPrice": 763.00,
-      "imgSrc": "./src/assets/img/products/plomeria/3021.png"
+      "imgSrc": "/img/products/plomeria/3021.png"
     },
     {
       "id": "plo21",
       "name": "Puño gde. pp spc-845g metal",
       "description": "PUÑO GDE. PP SPC-845G METAL",
       "regularPrice": 117.00,
-      "imgSrc": "./src/assets/img/products/plomeria/3099.png"
+      "imgSrc": "/img/products/plomeria/3099.png"
     },
     {
       "id": "plo22",
       "name": "Cubre falta para mezcladora largo",
       "description": "CUBRE FALTA P/MEZC LARGO SAYCO",
       "regularPrice": 84.00,
-      "imgSrc": "./src/assets/img/products/plomeria/7488.png"
+      "imgSrc": "/img/products/plomeria/7488.png"
     },
     {
       "id": "plo23",
       "name": "Grifo para fregadero con cruceta",
       "description": "GRIFO P/FREGADERO C/CRUCETA REF. 2030 VIQUA",
       "regularPrice": 385.00,
-      "imgSrc": "./src/assets/img/products/plomeria/10292.png"
+      "imgSrc": "/img/products/plomeria/10292.png"
     },
     {
       "id": "plo24",
       "name": "Monomando lav. completo tw.",
       "description": "MONOMANDO LAV. COMPLETO TW.",
       "regularPrice": 1213.00,
-      "imgSrc": "./src/assets/img/products/plomeria/19763.png"
+      "imgSrc": "/img/products/plomeria/19763.png"
     }
   ],
   "pintura": [
@@ -717,7 +717,7 @@
       "salePrice": 214.00,
       "onSale": true,
       "isNew": false,
-      "imgSrc": "./src/assets/img/products/pintura/2438.png"
+      "imgSrc": "/img/products/pintura/2438.png"
     },
     {
       "id": "pin2",
@@ -726,7 +726,7 @@
       "regularPrice": 25.00,
       "onSale": false,
       "isNew": false,
-      "imgSrc": "./src/assets/img/products/pintura/3970.png"
+      "imgSrc": "/img/products/pintura/3970.png"
     },
     {
       "id": "pin3",
@@ -734,7 +734,7 @@
       "description": "PORTA ROLOS 9 EZ.",
       "regularPrice": 87.00,
       "isNew": true,
-      "imgSrc": "./src/assets/img/products/pintura/5332.png"
+      "imgSrc": "/img/products/pintura/5332.png"
     },
     {
       "id": "pin4",
@@ -742,147 +742,147 @@
       "description": "Paquete de 1 libra de estopa",
       "regularPrice": 72.00,
       "isNew": false,
-      "imgSrc": "./src/assets/img/products/pintura/4899.png"
+      "imgSrc": "/img/products/pintura/4899.png"
     },
     {
       "id": "pin5",
       "name": "Masilla de junta para madera",
       "description": "Masilla de junta para madera",
       "regularPrice": 405.00,
-      "imgSrc": "./src/assets/img/products/pintura/11181.png"
+      "imgSrc": "/img/products/pintura/11181.png"
     },
     {
       "id": "pin6",
       "name": "Spray naranja",
       "description": "SPRAY DERUSTO C-GLO ORANGE DAP",
       "regularPrice": 496.00,
-      "imgSrc": "./src/assets/img/products/pintura/16996.png"
+      "imgSrc": "/img/products/pintura/16996.png"
     },
     {
       "id": "pin7",
       "name": "Spray amarillo canario",
       "description": "SPRAY CANARY YELLOW DAP",
       "regularPrice": 210.00,
-      "imgSrc": "./src/assets/img/products/pintura/16998.png"
+      "imgSrc": "/img/products/pintura/16998.png"
     },
     {
       "id": "pin8",
       "name": "Espatula",
       "description": "ESPATULA, EZ",
       "regularPrice": 50.00,
-      "imgSrc": "./src/assets/img/products/pintura/5325.png"
+      "imgSrc": "/img/products/pintura/5325.png"
     },
     {
       "id": "pin9",
       "name": "Oleo 37ml",
       "description": "OLEO 37ML, WINTON",
       "regularPrice": 309.75,
-      "imgSrc": "./src/assets/img/products/pintura/14389.png"
+      "imgSrc": "/img/products/pintura/14389.png"
     },
     {
       "id": "pin10",
       "name": "Piedra de pared",
       "description": "PIEDRA DE PARED, ANFLEX/EUROFLEX",
       "regularPrice": 70.00,
-      "imgSrc": "./src/assets/img/products/pintura/1016.png"
+      "imgSrc": "/img/products/pintura/1016.png"
     },
     {
       "id": "pin11",
       "name": "Pegamento pegatanque",
       "description": "PEGAMENTO PEGATANQUE, EPOXICO",
       "regularPrice": 445.00,
-      "imgSrc": "./src/assets/img/products/pintura/12127.png"
+      "imgSrc": "/img/products/pintura/12127.png"
     },
     {
       "id": "pin12",
       "name": "Espatula roscada no. 3",
       "description": "ESPATULA ROSCADA  NO. 3, TORNADO",
       "regularPrice": 294.00,
-      "imgSrc": "./src/assets/img/products/pintura/27732.png"
+      "imgSrc": "/img/products/pintura/27732.png"
     },
     {
       "id": "pin13",
       "name": "Pintura acrílica clásica corona",
       "description": "PINTURA LINEA ACRÍLICA, ACRÍLICA CLÁSICA, CORONA",
       "regularPrice": 604.00,
-      "imgSrc": "./src/assets/img/products/pintura/5GLACRILICA.png"
+      "imgSrc": "/img/products/pintura/5GLACRILICA.png"
     },
     {
       "id": "pin14",
       "name": "Pintura dura latex corona",
       "description": "PINTURA LÍNEA ACRÍLICA, DURA LATEX, CORONA",
       "regularPrice": 1995.00,
-      "imgSrc": "./src/assets/img/products/pintura/galon-dura-latex.png"
+      "imgSrc": "/img/products/pintura/galon-dura-latex.png"
     },
     {
       "id": "pin15",
       "name": "Pintura acrílica cromatic corona",
       "description": "PINTURA LÍNEA ACRÍLICA, CROMATIC, CORONA",
       "regularPrice": 1236.00,
-      "imgSrc": "./src/assets/img/products/pintura/CORMATICGL.png"
+      "imgSrc": "/img/products/pintura/CORMATICGL.png"
     },
     {
       "id": "pin16",
       "name": "Pintura esmalte fast dry corona",
       "description": "PINTURA LÍNEA ESMALTE, FAST DRY, CORONA",
       "regularPrice": 1516.00,
-      "imgSrc": "./src/assets/img/products/pintura/FASTDRYGL.png"
+      "imgSrc": "/img/products/pintura/FASTDRYGL.png"
     },
     {
       "id": "pin17",
       "name": "Pintura en spray corona",
       "description": "PINTURA EN SPRAY CORONA",
       "regularPrice": 245.00,
-      "imgSrc": "./src/assets/img/products/pintura/769409155833.png"
+      "imgSrc": "/img/products/pintura/769409155833.png"
     },
     {
       "id": "pin18",
       "name": "Pintura acrílica plus tropical",
       "description": "PINTURA LÍNEA ACRÍLICA, PLUS, TROPICAL",
       "regularPrice": 1680.00,
-      "imgSrc": "./src/assets/img/products/pintura/211606_1.jpg"
+      "imgSrc": "/img/products/pintura/211606_1.jpg"
     },
     {
       "id": "pin19",
       "name": "Pintura acrílica contractor tropical",
       "description": "PINTURA LÍNEA ACRÍLICA, CONTRACTOR, TROPICAL",
       "regularPrice": 965.00,
-      "imgSrc": "./src/assets/img/products/pintura/Capturadepantalla2020-08-04ala(s)155410.png"
+      "imgSrc": "/img/products/pintura/Capturadepantalla2020-08-04ala(s)155410.png"
     },
     {
       "id": "pin20",
       "name": "Pintura acrílica acritex tropical",
       "description": "PINTURA LÍNEA ACRÍLICA, ACRITEX, TROPICAL",
       "regularPrice": 435.00,
-      "imgSrc": "./src/assets/img/products/pintura/Capturadepantalla2020-08-04ala(s).png"
+      "imgSrc": "/img/products/pintura/Capturadepantalla2020-08-04ala(s).png"
     },
     {
       "id": "pin21",
       "name": "Pintura acrílica ultratex tropical",
       "description": "PINTURA LÍNEA ACRÍLICA, ULTRATEX, TROPICAL",
       "regularPrice": 790.00,
-      "imgSrc": "./src/assets/img/products/pintura/Capturadepantalla2020-08-04ala(s)16.03.51.png"
+      "imgSrc": "/img/products/pintura/Capturadepantalla2020-08-04ala(s)16.03.51.png"
     },
     {
       "id": "pin22",
       "name": "5gl blockaid blanco de 40lbs",
       "description": "5GL BLOCKAID BLANCO DE 40LBS POPULAR",
       "regularPrice": 2350.00,
-      "imgSrc": "./src/assets/img/products/pintura/pp18.jpg"
+      "imgSrc": "/img/products/pintura/pp18.jpg"
     },
     {
       "id": "pin23",
       "name": "Pintura acrílica súper ecónomica tropical",
       "description": "PINTURA LÍNEA ACRÍLICA, SÚPER ECÓNOMICA, TROPICAL",
       "regularPrice": 316.25,
-      "imgSrc": "./src/assets/img/products/pintura/Capturadepantalla2020-08-04ala(s)15.55.29.png"
+      "imgSrc": "/img/products/pintura/Capturadepantalla2020-08-04ala(s)15.55.29.png"
     },
     {
       "id": "pin24",
       "name": "Pintura acrílica ambient sin olor tropical",
       "description": "PINTURA LÍNEA ACRÍLICA, AMBIENT SIN OLOR, TROPICAL",
       "regularPrice": 1720.00,
-      "imgSrc": "./src/assets/img/products/pintura/Capturadepantalla2020-08-06ala(s)08.22.08.png"
+      "imgSrc": "/img/products/pintura/Capturadepantalla2020-08-06ala(s)08.22.08.png"
     }
   ]
 }
