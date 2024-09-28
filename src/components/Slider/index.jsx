@@ -12,7 +12,7 @@ const Slider = ({ data }) => {
   };
 
   return (
-    <section className="w-full h-fit relative">
+    <section className="w-full h-[320px] relative">
       <button className="absolute top-1/2 left-xs" onClick={previousSlide}>
         <div className="w-xl h-xl flex items-center justify-center rounded-full bg-ferre_white/30 hover:bg-white/60 active:bg-ferre_blue200/30">
           <svg
@@ -30,7 +30,7 @@ const Slider = ({ data }) => {
           </svg>
         </div>
       </button>
-      <div className="w-full h-auto rounded-md flex ">
+      <div className="rounded-md flex ">
         {data.map((item, index) => {
           return (
             <img
@@ -39,7 +39,7 @@ const Slider = ({ data }) => {
               alt={item.alt}
               className={
                 slide === index
-                  ? "w-full h-full inline-block rounded-3xl object-cover"
+                  ? " w-full h-[320px] inline-block rounded-3xl object-cover"
                   : "hidden"
               }
             />

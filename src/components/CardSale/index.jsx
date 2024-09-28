@@ -1,12 +1,18 @@
-import { formatNumbers } from "../../utils/formatNumbers";
 import { useContext, useState } from "react";
-import AddCartBtn from "../AddCartBtn";
-import QuantitySelector from "../QuantitySelector";
+
+//Context
 import { ProductDetailContext } from "../../context/ProductDetailContext";
 import { ShoppingCartContext } from "../../context/ShoppingCartContext";
 
+// Utils
+import { formatNumbers } from "../../utils/formatNumbers";
+
+// Components
+import QuantitySelector from "../QuantitySelector";
+import AddCartBtn from "../AddCartBtn";
+
 const CardSale = ({ imgsrc, name, regularPrice, salePrice, description }) => {
-  // contexts
+  // contexts variables
   const detailContext = useContext(ProductDetailContext);
   const cartContext = useContext(ShoppingCartContext);
 

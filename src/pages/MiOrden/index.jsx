@@ -107,7 +107,7 @@ const MiOrden = () => {
             />
           </svg>
           <p className="text-xl text-ferre_blue200">
-            No hay productos en tu carrito
+            No hay productos en tu orden
           </p>
         </section>
       )}

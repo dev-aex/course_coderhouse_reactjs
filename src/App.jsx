@@ -25,11 +25,6 @@ import { ShoppingCartContextProvider } from "./context/ShoppingCartContext";
 function App() {
   const globalContext = useContext(GlobalContext);
 
-  useEffect(() => {
-    console.log(globalContext?.data);
-    
-  }, [globalContext.data])
-
   return (
     <ShoppingCartContextProvider>
       <ProductDetailProvider>

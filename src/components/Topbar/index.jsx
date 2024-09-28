@@ -12,6 +12,7 @@ const TopBar = () => {
 
   return (
     <section className="flex justify-between items-start">
+      <NavLink to="/">
       <h1>
         <svg
           className="hover:cursor-pointer"
@@ -31,6 +32,7 @@ const TopBar = () => {
           />
         </svg>
       </h1>
+      </NavLink>
       <section className="flex gap-lg">
         <section className="flex gap-2xs items-center">
           <div className="flex gap-2xs text-base">
