@@ -1,15 +1,15 @@
 {
   "slides": [
     {
-      "url": "src/assets/img/slide1.jpeg",
+      "url": "/img/slide1.jpeg",
       "alt": "texto alternativo de img1"
     },
     {
-      "url": "src/assets/img/slide2.jpeg",
+      "url": "/img/slide2.jpeg",
       "alt": "texto alternativo de img2"
     },
     {
-      "url": "src/assets/img/slide3.jpeg",
+      "url": "/img/slide3.jpeg",
       "alt": "texto alternativo de img3"
     }
   ]
