@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 
 // Contexts
 import { GlobalContext } from "./context/GlobalContext";
+import { SearchBarContext } from "./context/SearchBarContext";
 
 // Pages
 import Inicio from "./pages/Inicio";
@@ -13,6 +14,7 @@ import Plomeria from "./pages/Plomeria";
 import Pintura from "./pages/Pintura";
 import NotFound from "./pages/NotFound";
 import MiOrden from "./pages/MiOrden";
+import SearchProducts from "./pages/SearchProducts";
 
 // Components
 import ShoppingCart from "./components/ShoppingCart";
@@ -25,6 +27,13 @@ import { ShoppingCartContextProvider } from "./context/ShoppingCartContext";
 
 function App() {
   const globalContext = useContext(GlobalContext);
+  const searchBarContext = useContext(SearchBarContext);
+
+  const [searchingword, setSearchingword] = useState("");
+
+  useEffect(() => {
+    setSearchingword(searchBarContext.searchword);
+  }, [searchBarContext.searchword]);
 
   return (
     <ShoppingCartContextProvider>
@@ -34,6 +43,16 @@ function App() {
           <ShoppingCart />
           <ProductModalDetails />
           <Routes>
+            <Route
+              exact
+              path="/search"
+              element={
+                <SearchProducts
+                  data={globalContext?.data}
+                  searchword={searchingword}
+                />
+              }
+            />
             <Route
               exact
               path="/"

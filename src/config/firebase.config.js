@@ -1,14 +1,21 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore  } from "firebase/firestore";
+import { getFirestore } from "firebase/firestore";
+
+const API_KEY = import.meta.env.VITE_API_KEY;
+const AUTH_DOMAIN = import.meta.env.VITE_AUTH_DOMAIN;
+const PROJECT_ID = import.meta.env.VITE_PROJECT_ID;
+const STORAGE_BUCKET = import.meta.env.VITE_STORAGE_BUCKET;
+const MESSAGE_SENDER_ID = import.meta.env.VITE_MESSAGE_SENDER_ID;
+const APP_ID = import.meta.env.VITE_APP_ID;
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAADa3ahM22S1Puu9gUG4KlciEGYyyGF0o",
-  authDomain: "ferreya-e293d.firebaseapp.com",
-  projectId: "ferreya-e293d",
-  storageBucket: "ferreya-e293d.appspot.com",
-  messagingSenderId: "600427048185",
-  appId: "1:600427048185:web:baf65163dda56b5d770628",
+  apiKey: API_KEY,
+  authDomain: AUTH_DOMAIN,
+  projectId: PROJECT_ID,
+  storageBucket: STORAGE_BUCKET,
+  messagingSenderId: MESSAGE_SENDER_ID,
+  appId: APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);
-export const db = getFirestore (app);
+export const db = getFirestore(app);
