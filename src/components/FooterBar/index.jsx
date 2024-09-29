@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 
 const FooterBar = () => {
   return (
-    <section className="absolute mt-xl bottom-0 w-screen h-[147px] px-[138px] flex flex-col py-md bg-primario-300">
-      <section className="flex justify-between items-center">
+    <section className="absolute mt-xl bottom-0 w-screen h-fit px-[138px] flex gap-lg flex-col py-md bg-primario-300">
+      <section className="flex flex-wrap gap-lg justify-center lg:justify-between items-center">
         <div>
           <NavLink to="/">
             <h2>

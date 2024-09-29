@@ -1,21 +1,22 @@
 import { useContext, useState } from "react";
 
+// Utils
+import { formatNumbers } from "../../utils/formatNumbers";
+
 //Context
 import { ProductDetailContext } from "../../context/ProductDetailContext";
 import { ShoppingCartContext } from "../../context/ShoppingCartContext";
-
-// Utils
-import { formatNumbers } from "../../utils/formatNumbers";
+import { GlobalContext } from "../../context/GlobalContext";
 
 // Components
 import QuantitySelector from "../QuantitySelector";
 import AddCartBtn from "../AddCartBtn";
 
 const CardSale = ({ imgsrc, name, regularPrice, salePrice, description }) => {
-  
   // contexts variables
   const detailContext = useContext(ProductDetailContext);
   const cartContext = useContext(ShoppingCartContext);
+  const globalContext = useContext(GlobalContext);
 
   // Show product details
   const showProduct = () => {
@@ -35,10 +36,20 @@ const CardSale = ({ imgsrc, name, regularPrice, salePrice, description }) => {
       quantity: quantity,
       multiplication: multiplication.toFixed(2),
     };
-    cartContext?.setProductInShoppingCart([
-      ...cartContext.productInShoppingCart,
-      poductData,
-    ]);
+
+    const alreadyExist = cartContext.productInShoppingCart.find(
+      (product) => name == product.name
+    );
+
+    if (alreadyExist) {
+      cartContext.newQuantity(name, quantity);
+    } else {
+      cartContext?.setProductInShoppingCart([
+        ...cartContext.productInShoppingCart,
+        poductData,
+      ]);
+    }
+    globalContext.setShowSnackbar(true);
   };
 
   //Quantity
@@ -56,16 +67,23 @@ const CardSale = ({ imgsrc, name, regularPrice, salePrice, description }) => {
     }
   };
 
+  // Loader
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
-    <article className="w-[24.7rem] h-[36.5rem]] bg-white shadow-lg shadow-ferre_blue400/25 shadow-xs shadow-ferre_blue400/50 rounded-xl">
+    <article className="w-[24.7rem] h-[36.5rem] bg-white shadow-lg shadow-ferre_blue400/25 shadow-xs shadow-ferre_blue400/50 rounded-xl">
       <figure
         onClick={showProduct}
-        className="w-full h-[12.6rem] mb-4xs cursor-pointer hover:opacity-50"
+        className="w-full h-[12.6rem] mb-4xs flex justify-center items-center cursor-pointer hover:opacity-50"
       >
+        {isLoading ? <div className="loader"></div> : <></>}
         <img
-          className="w-full h-full object-contain rounded-t-lg"
+          className={`${
+            isLoading ? "hidden" : "w-full h-full object-contain rounded-t-lg"
+          }`}
           src={imgsrc}
           alt={name}
+          onLoad={() => setIsLoading(false)}
         />
       </figure>
       <section className="w-full h-full">

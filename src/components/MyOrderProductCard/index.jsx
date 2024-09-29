@@ -12,15 +12,16 @@ import { ShoppingCartContext } from "../../context/ShoppingCartContext";
 const MyOrderProductCard = ({ imgsrc, name, price, productQuantity }) => {
   const [quantity, setQuantity] = useState(productQuantity);
 
-  
   const addQuantity = () => {
     if (quantity < 9999) {
+      context.newQuantity(name, 1);
       setQuantity(quantity + 1);
     }
   };
 
   const subtractQuantity = () => {
     if (quantity > 1) {
+      context.newQuantity(name, -1);
       setQuantity(quantity - 1);
     }
   };
@@ -32,6 +33,9 @@ const MyOrderProductCard = ({ imgsrc, name, price, productQuantity }) => {
   const deleteProduct = () => {
     context.deleteProductCart(name);
   };
+
+  // Loader
+  const [isLoading, setIsLoading] = useState(true);
 
   return (
     <>
@@ -54,8 +58,18 @@ const MyOrderProductCard = ({ imgsrc, name, price, productQuantity }) => {
           </svg>
         </div>
         <div className="w-fit col-span-1">
-          <figure>
-            <img className="w-3xl h-auto" src={imgsrc} alt={name} />
+          <figure className="flex justify-center items-center">
+            {isLoading ? (
+              <div className="loader place-content-center"></div>
+            ) : (
+              <></>
+            )}
+            <img
+              className={`${isLoading ? "hidden" : "w-3xl h-auto"}`}
+              src={imgsrc}
+              alt={name}
+              onLoad={() => setIsLoading(false)}
+            />
           </figure>
         </div>
         <div>

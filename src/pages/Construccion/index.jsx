@@ -11,7 +11,6 @@ import CardProduct from "../../components/CardProduct";
 import NavBar from "../../components/NavBar";
 
 const Construccion = ({ data }) => {
-  
   // Construction products filter
   const [constructionProduct, setConstructionProduct] = useState([]);
 

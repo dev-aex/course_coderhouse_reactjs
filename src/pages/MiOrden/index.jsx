@@ -18,7 +18,6 @@ const MiOrden = () => {
   const context = useContext(ShoppingCartContext);
 
   // Products Count
-
   const productsCount = () => {
     return context.productInShoppingCart.reduce((accu, items) => {
       return (accu += items?.quantity);
@@ -26,7 +25,6 @@ const MiOrden = () => {
   };
 
   // Subtotal
-
   const subtotal = () => {
     return context.productInShoppingCart.reduce((accu, items) => {
       return (accu += parseInt(items?.multiplication));

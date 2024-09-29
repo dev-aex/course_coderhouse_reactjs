@@ -1,4 +1,8 @@
+
+// Layout
 import Base from "../../layout/Base";
+
+// Components
 import NavBar from "../../components/NavBar";
 
 const NotFound = () => {

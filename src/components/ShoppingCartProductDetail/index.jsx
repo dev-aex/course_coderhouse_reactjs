@@ -1,6 +1,10 @@
-import { formatNumbers } from "../../utils/formatNumbers";
-import { ShoppingCartContext } from "../../context/ShoppingCartContext";
 import { useContext } from "react";
+
+// Utils
+import { formatNumbers } from "../../utils/formatNumbers";
+
+// Contexts
+import { ShoppingCartContext } from "../../context/ShoppingCartContext";
 
 const ShoppingCartProductDetail = ({
   name,
@@ -10,6 +14,8 @@ const ShoppingCartProductDetail = ({
   multiplication,
 }) => {
   const context = useContext(ShoppingCartContext);
+
+  // Delete product
   const deleteProduct = () => {
     context.deleteProductCart(name);
   };

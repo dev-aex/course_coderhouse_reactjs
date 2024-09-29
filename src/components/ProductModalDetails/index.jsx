@@ -1,17 +1,23 @@
 import { useContext, useState } from "react";
-import AddCartBtn from "../AddCartBtn";
-import QuantitySelector from "../QuantitySelector";
+
+//Context
 import { ProductDetailContext } from "../../context/ProductDetailContext";
 import { ShoppingCartContext } from "../../context/ShoppingCartContext";
+import { GlobalContext } from "../../context/GlobalContext";
+
+// Components
+import AddCartBtn from "../AddCartBtn";
+import QuantitySelector from "../QuantitySelector";
 
 const ProductModalDetails = () => {
-  // contexts
+  // Using contexts
   const detailContext = useContext(ProductDetailContext);
   const cartContext = useContext(ShoppingCartContext);
+  const globalContext = useContext(GlobalContext);
 
   // Add to cart
   const addProductToCart = () => {
-    const multiplication = detailContext.productToShow.regularPrice * quantity;
+    const multiplication = detailContext?.productToShow.regularPrice * quantity;
 
     const productData = {
       imgsrc: detailContext?.productToShow.imgsrc,
@@ -20,12 +26,20 @@ const ProductModalDetails = () => {
       quantity: quantity,
       multiplication: multiplication.toFixed(2),
     };
-    cartContext?.setProductInShoppingCart([
-      ...cartContext.productInShoppingCart,
-      productData,
-    ]);
 
-    closeProductDetail();
+    const alreadyExist = cartContext?.productInShoppingCart.find(
+      (product) => productData.name == product.name
+    );
+
+    if (alreadyExist) {
+      cartContext.newQuantity(productData.name, quantity);
+    } else {
+      cartContext?.setProductInShoppingCart([
+        ...cartContext.productInShoppingCart,
+        productData,
+      ]);
+    }
+    globalContext.setShowSnackbar(true);
   };
 
   //Quantity
@@ -48,6 +62,9 @@ const ProductModalDetails = () => {
     detailContext?.closeProductDetail();
     setQuantity(1);
   };
+
+  // Loader
+  const [isLoading, setIsLoading] = useState(true);
 
   return (
     <article
@@ -80,10 +97,16 @@ const ProductModalDetails = () => {
 
           <div className="w-full h-full">
             <figure className="w-full h-full flex justify-center items-center p-md">
+              {isLoading ? <div className="loader"></div> : <></>}
               <img
-                className="w-full h-full object-contain rounded-xl"
+                className={`${
+                  isLoading
+                    ? "hidden"
+                    : "w-full h-full object-contain rounded-xl"
+                }`}
                 src={detailContext?.productToShow.imgsrc}
                 alt={detailContext?.productToShow.name}
+                onLoad={() => setIsLoading(false)}
               />
             </figure>
           </div>

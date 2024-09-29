@@ -8,11 +8,20 @@ import { db } from "../../config/firebase.config";
 export const GlobalContext = createContext();
 
 export const GlobalContextProvider = ({ children }) => {
+  // Show Snackbar
+  const [showSnackbar, setShowSnackbar] = useState(false);
 
-  // Fetching data
-  const [data, setData] = useState([]);
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setShowSnackbar(false);
+    }, 2000);
+
+    return () => clearTimeout(timeoutId);
+  }, [showSnackbar]);
 
   // Fetching Firebase
+  const [data, setData] = useState([]);
+
   useEffect(() => {
     const productsCollection = collection(db, "productos");
 
@@ -34,6 +43,8 @@ export const GlobalContextProvider = ({ children }) => {
     <GlobalContext.Provider
       value={{
         data,
+        showSnackbar,
+        setShowSnackbar,
       }}
     >
       {children}

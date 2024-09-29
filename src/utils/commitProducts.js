@@ -1,7 +1,7 @@
 import { doc, writeBatch } from "firebase/firestore";
 import { db } from "../config/firebase.config";
 
-export const bulkInsert = async (dataObject) => {
+export const commitProducts = async (dataObject) => {
   const batch = writeBatch(db);
   Object.entries(dataObject).forEach(([category, products]) => {
     products.forEach((product, index) => {

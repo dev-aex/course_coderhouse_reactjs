@@ -1,14 +1,22 @@
 import { useContext, useState } from "react";
-import {formatNumbers} from "../../utils/formatNumbers"
-import AddCartBtn from "../AddCartBtn";
-import QuantitySelector from "../QuantitySelector";
+
+// Utils
+import { formatNumbers } from "../../utils/formatNumbers";
+
+// Contexts
 import { ProductDetailContext } from "../../context/ProductDetailContext";
 import { ShoppingCartContext } from "../../context/ShoppingCartContext";
+import { GlobalContext } from "../../context/GlobalContext";
+
+// Components
+import AddCartBtn from "../AddCartBtn";
+import QuantitySelector from "../QuantitySelector";
 
 const CardProduct = ({ imgsrc, name, regularPrice, description }) => {
-  // contexts
+  // Using Contexts
   const detailContext = useContext(ProductDetailContext);
   const cartContext = useContext(ShoppingCartContext);
+  const globalContext = useContext(GlobalContext);
 
   // Show product details
   const showProduct = () => {
@@ -28,10 +36,20 @@ const CardProduct = ({ imgsrc, name, regularPrice, description }) => {
       quantity: quantity,
       multiplication: multiplication.toFixed(2),
     };
-    cartContext?.setProductInShoppingCart([
-      ...cartContext.productInShoppingCart,
-      poductData,
-    ]);
+
+    const alreadyExist = cartContext.productInShoppingCart.find(
+      (product) => name == product.name
+    );
+
+    if (alreadyExist) {
+      cartContext.newQuantity(name, quantity);
+    } else {
+      cartContext?.setProductInShoppingCart([
+        ...cartContext.productInShoppingCart,
+        poductData,
+      ]);
+    }
+    globalContext.setShowSnackbar(true);
   };
 
   //Quantity
@@ -49,16 +67,27 @@ const CardProduct = ({ imgsrc, name, regularPrice, description }) => {
     }
   };
 
+  // Loader
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
-    <article className="w-full h-[36.5rem] grid grid-rows-2 bg-white shadow-lg shadow-ferre_blue400/25 shadow-xs shadow-ferre_blue400/50 rounded-xl">
+    <article className="w-[26rem] h-[36.5rem] grid grid-rows-2 bg-white shadow-lg shadow-ferre_blue400/25 shadow-xs shadow-ferre_blue400/50 rounded-xl">
       <figure
         onClick={showProduct}
-        className="w-full h-full mb-4xs cursor-pointer hover:opacity-50"
+        className="w-full h-full mb-4xs flex justify-center items-center cursor-pointer hover:opacity-50"
       >
+        {isLoading ? (
+          <div className="loader place-content-center"></div>
+        ) : (
+          <></>
+        )}
         <img
-          className="w-full h-full object-contain rounded-t-lg"
+          className={`${
+            isLoading ? "hidden" : "w-full h-full object-contain rounded-t-lg"
+          }`}
           src={imgsrc}
           alt={name}
+          onLoad={() => setIsLoading(false)}
         />
       </figure>
       <section className="w-full h-full">

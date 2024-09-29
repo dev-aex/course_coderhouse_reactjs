@@ -20,6 +20,8 @@ const ShoppingCart = () => {
     }, 0);
   };
 
+  
+
   return (
     <section
       className={`${

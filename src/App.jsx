@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 
 // Contexts
 import { GlobalContext } from "./context/GlobalContext";
@@ -17,6 +17,7 @@ import MiOrden from "./pages/MiOrden";
 // Components
 import ShoppingCart from "./components/ShoppingCart";
 import ProductModalDetails from "./components/ProductModalDetails";
+import Snackbar from "./components/Snackbar";
 
 // Providers
 import { ProductDetailProvider } from "./context/ProductDetailContext";
@@ -29,6 +30,7 @@ function App() {
     <ShoppingCartContextProvider>
       <ProductDetailProvider>
         <BrowserRouter>
+          {globalContext?.showSnackbar ? <Snackbar /> : <></>}
           <ShoppingCart />
           <ProductModalDetails />
           <Routes>

@@ -11,7 +11,7 @@ const TopBar = () => {
   const context = useContext(ShoppingCartContext);
 
   return (
-    <section className="flex justify-between items-start">
+    <section className="flex justify-center sm:justify-between gap-lg flex-wrap items-start">
       <NavLink to="/">
       <h1>
         <svg
