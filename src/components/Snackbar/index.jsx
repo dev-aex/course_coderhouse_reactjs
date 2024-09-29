@@ -1,6 +1,6 @@
 const Snackbar = () => {
   return (
-    <div className="fixed z-20 top-xl left-xl w-[300px] h-[80px] flex gap-xs justify-center items-center text-ferre_blue300 font-bold text-base rounded-lg bg-ferre_white shadow-lg shadow-xl">
+    <div className="fixed z-20 top-xl left-xl w-[300px] h-[80px] flex gap-xs justify-center items-center text-ferre_blue300 font-bold text-base rounded-lg bg-ferre_white border-2 border-ferre_blue50 shadow-lg shadow-xl">
       <div className="w-[30px] h-[30px] bg-[#00AD34] rounded-full flex justify-center items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"

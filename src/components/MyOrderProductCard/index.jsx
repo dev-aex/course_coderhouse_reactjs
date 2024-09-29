@@ -39,8 +39,8 @@ const MyOrderProductCard = ({ imgsrc, name, price, productQuantity }) => {
 
   return (
     <>
-      <div className="w-full grid grid-cols-6 gap-3xl items-center">
-        <div className="w-fit col-span-1">
+      <div className="w-full grid grid-cols-1 xl:grid-cols-7 gap-3xl items-center">
+        <div className="w-fit col-span-1 flex justify-center items-center">
           <svg
             className="hover:opacity-60 hover:cursor-pointer"
             onClick={() => deleteProduct()}
@@ -57,7 +57,7 @@ const MyOrderProductCard = ({ imgsrc, name, price, productQuantity }) => {
             />
           </svg>
         </div>
-        <div className="w-fit col-span-1">
+        <div className="w-fit col-span-2 xl:col-span-1 flex justify-center items-center">
           <figure className="flex justify-center items-center">
             {isLoading ? (
               <div className="loader place-content-center"></div>
@@ -72,7 +72,7 @@ const MyOrderProductCard = ({ imgsrc, name, price, productQuantity }) => {
             />
           </figure>
         </div>
-        <div>
+        <div className="col-span-2 flex justify-center items-center">
           <p className="flex flex-col gap-xs text-base font-bold text-ferre_blue300">
             {name}
             <span className="text-base font-medium text-ferre_blue200">
@@ -80,15 +80,15 @@ const MyOrderProductCard = ({ imgsrc, name, price, productQuantity }) => {
             </span>
           </p>
         </div>
-        <div className="w-full col-span-1">
+        <div className="w-full col-span-1 flex justify-center items-center">
           <QuantitySelector
             addQuantity={addQuantity}
             subtractQuantity={subtractQuantity}
             quantity={quantity}
           />
         </div>
-        <div className="w-full col-span-2">
-          <h3 className="text-xl text-right">
+        <div className="w-full col-span-2 flex justify-center items-center">
+          <h3 className="text-lg font-bold text-right text-ferre_blue200">
             {formatNumbers(price * quantity)}
           </h3>
         </div>

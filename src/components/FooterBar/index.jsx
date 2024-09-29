@@ -5,7 +5,7 @@ const FooterBar = () => {
     <section className="absolute mt-xl bottom-0 w-screen h-fit px-[138px] flex gap-lg flex-col py-md bg-primario-300">
       <section className="flex flex-wrap gap-lg justify-center lg:justify-between items-center">
         <div>
-          <NavLink to="/">
+          <NavLink to="/" onClick={() => window.scrollTo(0, 0)}>
             <h2>
               <svg
                 className="hover:cursor-pointer"
@@ -25,28 +25,28 @@ const FooterBar = () => {
         </div>
         <div>
           <ul className="flex gap-sm flex-wrap text-primario-20 text-base font-normal">
-            <NavLink to="/">
+            <NavLink to="/" onClick={() => window.scrollTo(0, 0)}>
               <li className="hover:underline hover:cursor-pointer">Inicio</li>
             </NavLink>
-            <NavLink to="/construccion">
+            <NavLink to="/construccion" onClick={() => window.scrollTo(0, 0)}>
               <li className="hover:underline hover:cursor-pointer">
                 Construcción
               </li>
             </NavLink>
-            <NavLink to="/herramientas">
+            <NavLink to="/herramientas" onClick={() => window.scrollTo(0, 0)}>
               <li className="hover:underline hover:cursor-pointer">
                 Herramientas
               </li>
             </NavLink>
-            <NavLink to="/herreria">
+            <NavLink to="/herreria" onClick={() => window.scrollTo(0, 0)}>
               {" "}
               <li className="hover:underline hover:cursor-pointer">Herrería</li>
             </NavLink>
-            <NavLink to="/plomeria">
+            <NavLink to="/plomeria" onClick={() => window.scrollTo(0, 0)}>
               {" "}
               <li className="hover:underline hover:cursor-pointer">Plomería</li>
             </NavLink>
-            <NavLink to="/pintura">
+            <NavLink to="/pintura" onClick={() => window.scrollTo(0, 0)}>
               {" "}
               <li className="hover:underline hover:cursor-pointer">Pintura</li>
             </NavLink>

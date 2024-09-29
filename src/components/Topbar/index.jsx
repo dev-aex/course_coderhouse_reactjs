@@ -13,7 +13,7 @@ const TopBar = () => {
 
   return (
     <section className="flex justify-center sm:justify-between gap-lg flex-wrap items-start">
-      <NavLink to="/">
+      <NavLink to="/" onClick={() => window.scrollTo(0, 0)}>
         <h1>
           <svg
             className="hover:cursor-pointer"
@@ -64,7 +64,7 @@ const TopBar = () => {
                 </clipPath>
               </defs>
             </svg>
-            <NavLink to="/miorden">
+            <NavLink to="/miorden" onClick={() => window.scrollTo(0, 0)}>
               <span className="hover:underline hover:cursor-pointer font-bold text-ferre_blue300">
                 Mi orden
               </span>

@@ -9,6 +9,8 @@ const SearchBar = () => {
 
   const enterKey = (event) => {
     if (event.key === "Enter") {
+      context?.setSearchword(event.target.value);
+      window.scrollTo(0, 0);
       navigate("/search");
     }
   };
@@ -48,7 +50,7 @@ const SearchBar = () => {
         type="text"
         name="search"
         onChange={(e) => context?.setSearchword(e.target.value)}
-        onKeyDown={enterKey}
+        onKeyDown={(e) => enterKey(e)}
       />
     </label>
   );

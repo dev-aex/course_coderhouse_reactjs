@@ -36,7 +36,7 @@ const SearchProducts = ({ data, searchword }) => {
     <Base>
       <NavBar />
       <h1 className="text-2xl font-bold text-ferre_blue200">
-        {searchword === "" ? "Busqueda" : `Buscando "${searchword}"`}
+        {searchword === "" ? "Todos los productos" : `Buscando: "${searchword}"`}
       </h1>
       <ProductsListContainer>
         {searchproducts.map((items) => (

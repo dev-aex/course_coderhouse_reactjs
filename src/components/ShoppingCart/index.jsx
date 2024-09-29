@@ -20,8 +20,6 @@ const ShoppingCart = () => {
     }, 0);
   };
 
-  
-
   return (
     <section
       className={`${
@@ -78,9 +76,10 @@ const ShoppingCart = () => {
                 </p>
               </div>
               <NavLink
-                onClick={() =>
-                  context?.setShowShoppingCart(!context.showShoppingCart)
-                }
+                onClick={() => {
+                  context?.setShowShoppingCart(!context.showShoppingCart);
+                  window.scrollTo(0, 0);
+                }}
                 className="w-full"
                 to="/miorden"
               >

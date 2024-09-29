@@ -34,8 +34,8 @@ const MiOrden = () => {
   return (
     <Base>
       <NavBar />
-      <section className="w-full px-[128px]">
-        <h1 className="text-2xl font-bold text-ferre_blue200">Mi orden</h1>
+      <section className="w-full">
+        <h1 className="text-2xl font-bold text-ferre_blue200">Checkout</h1>
       </section>
       {context?.productInShoppingCart?.length > 0 ? (
         <section className="w-full h-full flex flex-col items-end justify-center">
