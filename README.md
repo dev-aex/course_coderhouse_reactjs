@@ -2,7 +2,7 @@
 
 E-commerce para una ferretería como proyecto final para el curso de ReactJS en CoderHouse.
 
-## Demo
+## Live demo
 
 https://main--reactcoderhouse.netlify.app/
 
@@ -22,8 +22,6 @@ Deploy the project:
 $ npm run dev
 ```
 
-## [Live Demo](https://projectsbillboards.netlify.app/)
-
 ## Build with
 
 - Vite
@@ -37,6 +35,3 @@ $ npm run dev
 - Profesor: Pablo Martín Rovira
 - Tutor: Juan Manuel Chico
 
-```
-
-```
